@@ -14,7 +14,7 @@ include 'cdn.php';
 
     <!--title-->
     <!--<title>Web Applications</title>-->
-    <title>BRM</title>
+    <title>Oracle Communication Consulting.</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PD36XE5CJ"></script>
@@ -56,11 +56,11 @@ include 'cdn.php';
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>Billing Revenue Management</h1>
+                                <h1>Oracle Communication Consulting</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
                                         <li class="breadcrumb-item"><a href="index.php">Services</a></li>
-                                        <li class="breadcrumb-item active"><a href="softdev.php">Billing Revenue Management</a></li>
+                                        <li class="breadcrumb-item active"><a href="softdev.php">Oracle Communication Consulting</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -76,8 +76,8 @@ include 'cdn.php';
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-12 col-lg-5">
-                        <h2>Billing Revenue Management</h2>
-                        <p class="lead">Oracle BRM (Billing and Revenue Management) is a comprehensive, end-to-end revenue management solution tailored for communications service providers,
+                        <h2>Billing And Revenue Management</h2>
+                        <p class="lead">Oracle BRM (Billing And Revenue Management) is a comprehensive, end-to-end revenue management solution tailored for communications service providers,
 encompassing telecommunications and internet service providers. It empowers these organizations to efficiently manage the complete billing and revenue lifecycle.</p>
                        <!-- <ul class="list-unstyled tech-feature-list">
                             <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"> <i
@@ -95,13 +95,13 @@ encompassing telecommunications and internet service providers. It empowers thes
                         </ul>-->
                         <ul class="list-unstyled tech-feature-list">
                                             <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"><i
-                                        class="ti-control-forward"></i></span><strong>Assuring </strong> clients on deliver results.</li>
+                                        class="ti-control-forward"></i></span><strong>Billing </strong> Solutions Expertise.</li>
                                             <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"><i
-                                        class="ti-control-forward"></i></span><strong>Identifying</strong> and plugging revenue leaks.</li>
+                                        class="ti-control-forward"></i></span><strong>Custom </strong> Software Development.</li>
                                             <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"><i
-                                        class="ti-control-forward"></i></span><strong>Ensure  </strong>  maximum profitability for business.</li>
+                                        class="ti-control-forward"></i></span><strong>Data   </strong>  Security and Compliance.</li>
                                             <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"><i
-                                        class="ti-control-forward"></i></span><strong>Streamlining</strong> intricate billing processes.</li>
+                                        class="ti-control-forward"></i></span><strong>Cost </strong> -Effective Solutions..</li>
                                         </ul>
 
 
@@ -112,9 +112,7 @@ encompassing telecommunications and internet service providers. It empowers thes
                                 <div class="card bg-default text-white shadow-soft rounded mb-4">
                                     <div class="px-3 px-lg-4 py-5 text-center">
                                         <span class="icon icon-lg d-block"><i class="fas fa-user-shield"></i></span>
-                                        <p class="mb-0">We deliver bespoke software with absolute focus on your specific
-                                            business needs. Our experienced team has a proven track record of delivering
-                                            projects in a broad complexity spectrum.</p>
+                                        <p class="mb-0">Specialize in delivering optimized ORACLE BRM solutions by providing deployment enhancement, customization, upgrade & support services in the most cost-effective manner.</p>
                                     </div>
                                 </div>
                                 <div class="card bg-success text-white shadow-soft rounded mb-4">
@@ -132,9 +130,8 @@ encompassing telecommunications and internet service providers. It empowers thes
                                 <div class="card bg-primary text-white shadow-soft rounded mb-4">
                                     <div class="px-3 px-lg-4 py-5 text-center">
                                         <span class="icon icon-lg d-block"><i class="fas fa-shapes"></i></span>
-                                        <p class="mb-0">We know how to cater for ever-changing market requirements and
-                                            enhance your business with industry-specific solutions. Geomotiv is ready to
-                                            deliver scalable solutions that meet your exact expectations.</p>
+                                        <p class="mb-0">Our talent pool of highly experienced consultants work closely with our clients' internal BRM resources to increase their BRM capability and bring best practice solutions. 
+</p>
                                     </div>
                                 </div>
                             </div>
@@ -142,6 +139,7 @@ encompassing telecommunications and internet service providers. It empowers thes
                     </div>
                 </div>
             </div>
+            
         </section>
         <!--about section end-->
 
@@ -268,8 +266,8 @@ encompassing telecommunications and internet service providers. It empowers thes
                                             <!--<i class="fas fa-laptop"></i>-->
                                             <i class="fas fa-file-invoice"></i>
                                         </div>
-                                        <h5>Invoice generation </h5>
-                                        <p>Jhaishna Technologies ensures accurate and timely invoice generation for its services or products. This process involves detailing the charges incurred by clients, providing transparency in financial transactions.</p>
+                                        <h5>Oracle Billing and Revenue Management Implementation  </h5>
+                                        <p>Comprehensive solution designed to help organizations manage their billing, revenue, and customer management processes effectively. Implementing and customizing Oracle BRM requires careful planning, expertise in Oracle technologies, and a deep understanding of the organization's business requirements.</p>
                                     </div>
                                 </div>
                             </div>
@@ -282,8 +280,8 @@ encompassing telecommunications and internet service providers. It empowers thes
                                             <i class="fas fa-file-invoice-dollar"></i>
                                             
                                         </div>
-                                        <h5>Billing Operations </h5>
-                                        <p>The billing operations at Jhaishna Technologies are streamlined to ensure efficiency and accuracy. This includes monitoring billing cycles, managing payment processing, and resolving any billing-related issues promptly.</p>
+                                        <h5> Data Migration  </h5>
+                                        <p>Data migration is a crucial aspect of the implementation process, involving the transfer of data from existing systems to Oracle BRM. This requires careful planning, mapping, and execution to ensure that data is accurately and securely migrated while maintaining data integrity and consistency.</p>
                                     </div>
                                 </div>
                             </div>
@@ -297,8 +295,8 @@ encompassing telecommunications and internet service providers. It empowers thes
                                             <i class="fas fa-money-bill-alt"></i>
                                         </div>
                                     </div>
-                                    <h5>usage Tracking & Data collection - (Rating & Charging)</h5>
-                                    <p>Jhaishna Technologies tracks usage patterns of its services/products meticulously. By collecting data on how customers utilize their offerings, they can implement dynamic pricing strategies through rating and charging mechanisms.</p>
+                                    <h5> Managed Services</h5>
+                                    <p>Oracle Billing and Revenue Management (BRM) systems. We offer end-to-end support, including system monitoring, issue resolution, performance enhancement, and software upgrades.</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-xs-6 mt-4">
@@ -310,8 +308,8 @@ encompassing telecommunications and internet service providers. It empowers thes
                                             <!--<i class="fas fa-drafting-compass"></i>-->
                                             <i class="fas fa-handshake"></i>
                                         </div>
-                                        <h5>Subscription Management</h5>
-                                        <p>Managing subscriptions is a critical aspect of revenue management for Jhaishna Technologies. They oversee subscription plans, upgrades, renewals, cancellations ensuring a seamless experience for their clients.</p>
+                                        <h5>Testing and Automation</h5>
+                                        <p>Develop comprehensive test plans, execute cases, and automate repetitive tasks to improve efficiency and accuracy. Utilize automation tools and best practices for streamlined processes and enhanced system quality.</p>
                                     </div>
                                 </div>
                             </div>
@@ -361,43 +359,49 @@ encompassing telecommunications and internet service providers. It empowers thes
                             <h3><label>Type of project Required</label></h3>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Client Portals">Client Portals 
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Oracle Communication Consulting">Oracle Communication Consulting.
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Lead Management">Lead Management
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Tailered Billing Solution">Tailered Billing Solution.
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="UI & UX">UI & UX
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Tailered CRM SystemX">Tailered CRM System.
                                     Designs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Digital Marketing">Digital Marketing
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Digitial Bussiness Transformation">Digitial Bussiness Transformation.
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Project management">Project management
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Staff Augmentation">Staff Augmentation
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Software Development"> Software Development
+                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Cloud Migration And Automation">Cloud Migration And Automation.
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]"  value="Graphic Designing"> Graphic Designing &nbsp;
+                                    <input type="checkbox" class="form-check-input" name="data[]"  value="E-Invoicing Software">E-Invoicing Software. &nbsp;
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Branding & Promotions"> Branding & Promotions
+                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Digitial Manufacturing Platform">Digitial Manufacturing Platform.
+                                </label>
+                            </div>
+                            <br>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Others">Others.
                                 </label>
                             </div>
                             <!--<div class="form-check-inline">
@@ -435,7 +439,7 @@ encompassing telecommunications and internet service providers. It empowers thes
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="section-heading text-center mb-5">
-                            <h2>Other Services</h2>
+                            <h2>Other Core Services</h2>
                             <p class="lead">Dynamically pursue reliable convergence rather than 24/7 process
                                 improvements develop end-to-end customer service.</p>
                         </div>
@@ -480,7 +484,7 @@ encompassing telecommunications and internet service providers. It empowers thes
                                 <h3 class="h5 card-title mt-3"><a href="#">Monitoring</a></h3>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of the card's content.</p>
-                                <a href="add-on.php" class="link-with-icon text-default font-small font-weight-bold"
+                                <a href="corpo.php" class="link-with-icon text-default font-small font-weight-bold"
                                     target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
                             </div>
                         </div>

@@ -1,2 +1,0 @@
-# Jhaishna
-Web for jhaishna 

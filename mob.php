@@ -195,57 +195,67 @@ We give delivery of portals with in specified time where client requirement incl
                             <h3><label>Type of project Required</label></h3>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Client Portals">Client Portals 
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Oracle Communication Consulting">Oracle Communication Consulting.
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Lead Management">Lead Management
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Tailered Billing Solution">Tailered Billing Solution.
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input"  name="data[]" value="UI & UX Designs">UI & UX Designs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Tailered CRM SystemX">Tailered CRM System.
+                                    Designs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Digital Marketing">Digital Marketing
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Digitial Bussiness Transformation">Digitial Bussiness Transformation.
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Project management">Project management
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Staff Augmentation">Staff Augmentation
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Software Development"> Software Development
+                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Cloud Migration And Automation">Cloud Migration And Automation.
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Graphic Designing"> Graphic Designing &nbsp;
+                                    <input type="checkbox" class="form-check-input" name="data[]"  value="E-Invoicing Software">E-Invoicing Software. &nbsp;
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Branding & Promotions"> Branding & Promotions
+                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Digitial Manufacturing Platform">Digitial Manufacturing Platform.
                                 </label>
                             </div>
-
+                            <br>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Others">Others.
+                                </label>
+                            </div>
                             <br />
                             <br />
+                            
                             <div class="form-group input-group">
                                 <textarea name="message" id="msg" class="form-control" placeholder="Write your Requirement..." cols="30" rows="2" required="required"></textarea>
                             </div>
-                            <div class="form-group">
-                                <input type="submit" name="submit" id="submit" class="btn btn-secondary btn-block" value="Send">
-                            </div>
+
                             <div class="form-check d-flex align-items-center text-center">
                                 <input type="checkbox" class="form-check-input mt-0 mr-3" id="exampleCheck1">
                                 <label class="form-check-label text-muted" for="exampleCheck1">I agree your <a href="#">terms &amp; conditions</a></label>
                             </div>
+                            <br>
+                            <div class="form-group">
+                                <input type="submit" name="submit" id="submit" class="btn btn-secondary btn-block" value="Send">
+                            </div>
+                            
                         </form>
                     </div>
                 </div>
@@ -368,7 +378,7 @@ We give delivery of portals with in specified time where client requirement incl
                             <div class="card-body ">
                                 <h3 class="h5 card-title mt-3 "><a href="add-on.php">Monitoring</a></h3>
                                 <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="add-on.php" class="link-with-icon text-default font-small font-weight-bold " target="_blank ">Read more <span> <i class="fas fa-angle-right "></i></span></a>
+                                <a href="corpo.php" class="link-with-icon text-default font-small font-weight-bold " target="_blank ">Read more <span> <i class="fas fa-angle-right "></i></span></a>
                             </div>
                         </div>
                     </div>

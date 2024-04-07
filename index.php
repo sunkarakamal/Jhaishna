@@ -50,7 +50,7 @@ include 'cdn.php';
                         <div class="item">
                             <div class="col-md-8 col-lg-7 col-12">
                                 <div class="hero-content-wrap">
-                                    <h1 class="display-2">Transform Your Market in Next 90 Days</h1>
+                                    <h1 class="display-2">Transform Your Business in Next 90 Days</h1>
                                     <p class="lead">Unlock Growth Potential with Oracle's BRM, OAP, and ASAP Solutions!</p>
                                     <ul class="list-unstyled tech-feature-list text-white">
                                         <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Billing</strong> Revenue management</li>
@@ -231,7 +231,7 @@ We take pride in offering comprehensive support & product management services, s
         <!--about section end-->
 
         <!--cta section start-->
-        <section class="py-0 text-white lozad" style="background: url('assets/img/slider-img-5.jpg')no-repeat center center fixed">
+        <!--<section class="py-0 text-white lozad" style="background: url('assets/img/slider-img-5.jpg')no-repeat center center fixed">
             <div class="section section-sm bg-gradient-primary">
                 <div class="container">
                     <div class="row">
@@ -256,17 +256,17 @@ We take pride in offering comprehensive support & product management services, s
                                 <h3 class="h6">Served Clients</h3>
                             </div>
                         </div>
-                        <!-- <div class="col-6 col-md-6 col-lg-3 mb-4 mb-md-4 mb-lg-0">
+                         <div class="col-6 col-md-6 col-lg-3 mb-4 mb-md-4 mb-lg-0">
                             <div class="icon-box text-center">
                                  <div class="icon icon-md"><i class="fas fa-dollar-sign"></i></div>
                                  <span class="counter d-block display-3 my-2" data-count="6144">0</span>
                                  <h3 class="h6">Revenue</h3>
                             </div>
-                        </div> -->
+                        </div> 
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!--cta section end-->
 
         <!--work-process section start-->
@@ -725,19 +725,47 @@ We take pride in offering comprehensive support & product management services, s
             </div>
         </div> -->
         <!--customer logo section end-->
+ 
+        <!--<div class="container">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <div class="embed-responsive embed-responsive-16by9">
+        <video width="100%" height="200" controls>
+  <source src="Clients (1).mp4" type="video/mp4">
+</video>
+          
+        </video>
+      </div>
+    </div>
+  </div>-->
+
+<section class="py-0 text-white lozad">
+<div>
+<video autoplay muted loop class="video-background" style="margin: left 10px;"width=100% >
+        <source src="assets\img\video.mp4" type="video/mp4">
+            <div class="container" style="margin: left 10px;">
+            
+                <div class="row" style="margin: left 10px;">
+</div>
+                <!--<video autoplay muted loop class="video-background" style="margin: left 10px;">
+        <source src="Clients (1).mp4" type="video/mp4">-->
+</div>
+</section>
 
         <!--cta section start-->
         <section class="section section-sm bg-soft py-5 ">
+        <div class="section section-sm bg-gradient-primary">
             <div class="container">
+            
                 <div class="row justify-content-around align-items-center">
                     <div class="col-md-7">
                         <div class="subscribe-content">
                             <h3><strong>Ready to Discuss Your Project?</strong></h3>
-                          
+</div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="action-btn text-lg-right text-sm-left">
+                        <div class="action-btn text-lg-right text-sm-left"style="margin-right:20px;">
                             <a href="contact.php" class="btn btn-primary">Get a Quote</a>
                         </div>
                     </div>

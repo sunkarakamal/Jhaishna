@@ -93,11 +93,11 @@ include 'cdn.php';
                                 <li class="py-3 border border-bottom border-variant-soft border-left-0 border-top-0 border-right-0"><a href="#">Performance Tuning</a></li>
                                 <li class="py-3 border border-bottom border-variant-soft border-left-0 border-top-0 border-right-0"><a href="#">Service Automation</a></li>
                                <!-- <li class="py-3 border border-bottom border-variant-soft border-left-0 border-top-0 border-right-0"><a href="#">Google-Ads Management</a></li>-->
-                                <div class="row justify-content-center">
+                                <!-- <div class="row justify-content-center">
                                     <div class="col-lg-12 col-md-12 text-center">
-                                        <a href="#" class="btn btn-secondary mt-3" data-toggle="modal" data-target="#enquiry">ENQUIRY <span class="icon icon-xs ml-2 "><span class="fas fa-arrow-right "></span></span></a>
+                                       <a href="#" class="btn btn-secondary mt-3" data-toggle="modal" data-target="#enquiry">ENQUIRY <span class="icon icon-xs ml-2 "><span class="fas fa-arrow-right "></span></span></a>
                                     </div>
-                                </div>
+                                </div> -->
                             </ul>
                         </aside>
                     </div>
@@ -106,92 +106,7 @@ include 'cdn.php';
         </section>
         <!-- project details section end -->
 
-        <!-- Modal -->
-        <div class="modal fade" id="enquiry" tabindex="-1" role="dialog" aria-labelledby="enquiryTitle" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="sign-up-form-wrap position-relative rounded p-5 bg-white text-dark shadow-lg">
-                        <div class="sign-up-form-header text-center mb-4">
-                            <h3>Request a Proposal</h3>
-                            <p>Fill Out Our Form & We’ll be in Touch Shortly</p>
-                        </div>
-                        <div class="message-box d-none">
-                            <div class="alert alert-danger"></div>
-                        </div>
-                        <form action="projectlogin.php"  method="post" class="sign-up-form">
-                            <div class="form-group input-group">
-                                <input type="text" name="name" class="form-control" placeholder="Name" required="required">
-                            </div>
-                            <div class="form-group input-group">
-                                <input type="email" name="email" class="form-control" placeholder="Email" required="required">
-                            </div>
-                            <div class="form-group input-group">
-                                <input type="text" name="subject" class="form-control" placeholder="Phone" required="required">
-                            </div>
-                            <h3><label>Type of project Required</label></h3>
-                            <div class="form-check-inline">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Client Portals">Client Portals
-                                </label>
-                            </div>
-                            <div class="form-check-inline">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Lead management">Lead management
-                                </label>
-                            </div>
-                            <div class="form-check-inline">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="UI & UX Designs">UI & UX Designs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                </label>
-                            </div>
-                            <div class="form-check-inline">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Digital Marketing">Digital Marketing
-                                </label>
-                            </div>
-                            <div class="form-check-inline">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Project management">Project management
-                                </label>
-                            </div>
-                            <div class="form-check-inline">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Software Development"> Software Development
-                                </label>
-                            </div>
-                            <div class="form-check-inline">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Graphic Designing"> Graphic Designing &nbsp;
-                                </label>
-                            </div>
-                            <div class="form-check-inline">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" name="data[]" value="Branding & Promotions"> Branding & Promotions
-                                </label>
-                            </div>
-                            <!--<div class="form-check-inline">
-                                <label class="form-check-label">
-                                    <input type="checkbox" class="form-check-input" value=""> Logo Desiging
-                                </label>
-                            </div>-->
-                            <br />
-                            <br />
-                            <div class="form-group input-group">
-                                <textarea name="message" id="msg" class="form-control" placeholder="Write your Requirement..." cols="30" rows="2" required="required"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" name="submit" id="submit" class="btn btn-secondary btn-block" value="Send">
-                            </div>
-                            <div class="form-check d-flex align-items-center text-center">
-                                <input type="checkbox" class="form-check-input mt-0 mr-3" id="exampleCheck1">
-                                <label class="form-check-label text-muted" for="exampleCheck1">I agree your <a href="#">terms &amp; conditions</a></label>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- modal end -->
+        
 
         <!--services section start-->
         <section class="section services-section ptb-100 bg-soft">
@@ -270,7 +185,103 @@ include 'cdn.php';
 
                             </div>
                         </div>
+                        <div class="col-md-5 col-lg-5 d-flex justify-content-end"> <!-- Changed justify-content-center to justify-content-end -->
+    <div class="feature-content section-title text-right"> <!-- Added text-right -->
+    <a href="#" class="btn btn-secondary mt-3" data-toggle="modal" data-target="#enquiry">ENQUIRY <span class="icon icon-xs ml-2 "><span class="fas fa-arrow-right "></span></span></a>
+    </div>
+</div>
+
+                    <!-- Modal -->
+        <div class="modal fade" id="enquiry" tabindex="-1" role="dialog" aria-labelledby="enquiryTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="sign-up-form-wrap position-relative rounded p-5 bg-white text-dark shadow-lg">
+                        <div class="sign-up-form-header text-center mb-4">
+                            <h3>Request a Proposal</h3>
+                            <p>Fill Out Our Form & We’ll be in Touch Shortly</p>
+                        </div>
+                        <div class="message-box d-none">
+                            <div class="alert alert-danger"></div>
+                        </div>
+                        <form action="projectlogin.php"  method="post" class="sign-up-form">
+                            <div class="form-group input-group">
+                                <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                            </div>
+                            <div class="form-group input-group">
+                                <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                            </div>
+                            <div class="form-group input-group">
+                                <input type="text" name="subject" class="form-control" placeholder="Phone" required="required">
+                            </div>
+                            <h3><label>Type of project Required</label></h3>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Oracle Communication Consulting">Oracle Communication Consulting.
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Tailered Billing Solution">Tailered Billing Solution.
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Tailered CRM SystemX">Tailered CRM System.
+                                    Designs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Digitial Bussiness Transformation">Digitial Bussiness Transformation.
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" name="data[]" value="Staff Augmentation">Staff Augmentation
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Cloud Migration And Automation">Cloud Migration And Automation.
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" name="data[]"  value="E-Invoicing Software">E-Invoicing Software. &nbsp;
+                                </label>
+                            </div>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Digitial Manufacturing Platform">Digitial Manufacturing Platform.
+                                </label>
+                            </div>
+                            <br>
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input"  name="data[]" value="Others">Others.
+                                </label>
+                            </div>
+                            <br />
+                            <br />
+                            
+                            <div class="form-group input-group">
+                                <textarea name="message" id="msg" class="form-control" placeholder="Write your Requirement..." cols="30" rows="2" required="required"></textarea>
+                            </div>
+
+                            <div class="form-check d-flex align-items-center text-center">
+                                <input type="checkbox" class="form-check-input mt-0 mr-3" id="exampleCheck1">
+                                <label class="form-check-label text-muted" for="exampleCheck1">I agree your <a href="#">terms &amp; conditions</a></label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <input type="submit" name="submit" id="submit" class="btn btn-secondary btn-block" value="Send">
+                            </div>
+                        </form>
                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal end -->
                   <!--  <div class="col-lg-6 col-md-6 col-sm-6 mb-4 mb-md-4">
                         <div class="services-single d-flex p-5 shadow-sm bg-white rounded">
                             <div class="icon icon-lg mr-4 text-secondary">
@@ -321,7 +332,7 @@ include 'cdn.php';
                             <div class="card-body ">
                                 <h3 class="h5 card-title mt-3 "><a href="# ">Monitoring</a></h3>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="add-on.php" class="link-with-icon text-default font-small font-weight-bold " target="_blank ">Read more <span> <i class="fas fa-angle-right "></i></span></a>
+                                <a href="corpo.php" class="link-with-icon text-default font-small font-weight-bold " target="_blank ">Read more <span> <i class="fas fa-angle-right "></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -353,99 +364,6 @@ include 'cdn.php';
             </div>
         </section>
         <!--blog section end-->
-    </div>
-
-
-    <!-- Modal -->
-    <div class="modal fade " id="enquiry" tabindex="-1 " role="dialog " aria-labelledby="enquiryTitle " aria-hidden="true ">
-        <div class="modal-dialog " role="document ">
-            <div class="modal-content ">
-                ss
-                <div class="sign-up-form-wrap position-relative rounded p-5 bg-white text-dark shadow-lg ">
-                    <div class="sign-up-form-header text-center mb-4 ">
-                        <h3>Request a Proposal</h3>
-
-                        <p>Fill Out Our Form & We’ll be in Touch Shortly</p>
-                    </div>
-                    <div class="message-box d-none ">
-                        <div class="alert alert-danger "></div>
-                    </div>
-                    <form action="# " id="getQuoteFrm " method="post " class="sign-up-form ">
-                        <div class="form-group input-group ">
-                            <input type="text " name="name " class="form-control " placeholder="Name " required="required ">
-                        </div>
-                        <div class="form-group input-group ">
-                            <input type="email " name="email " class="form-control " placeholder="Email " required="required ">
-                        </div>
-                        <div class="form-group input-group ">
-                            <input type="text " name="subject " class="form-control " placeholder="Phone " required="required ">
-                        </div>
-
-                        <h3><label>Type of project Required</label></h3>
-                        <div class="form-check-inline ">
-                            <label class="form-check-label ">
-                                <input type="checkbox " class="form-check-input " value=" ">Responsive Website
-                            </label>
-                        </div>
-                        <div class="form-check-inline ">
-                            <label class="form-check-label ">
-                                <input type="checkbox " class="form-check-input " value=" ">Mobile Apps
-                            </label>
-                        </div>
-                        <div class="form-check-inline ">
-                            <label class="form-check-label ">
-                                <input type="checkbox " class="form-check-input " value=" ">UI & UX Designs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            </label>
-                        </div>
-                        <div class="form-check-inline ">
-                            <label class="form-check-label ">
-                                <input type="checkbox " class="form-check-input " value=" ">Digital Marketing
-                            </label>
-                        </div>
-                        <div class="form-check-inline ">
-                            <label class="form-check-label ">
-                                <input type="checkbox " class="form-check-input " value=" ">Server Maintenance
-                            </label>
-                        </div>
-                        <div class="form-check-inline ">
-                            <label class="form-check-label ">
-                                <input type="checkbox " class="form-check-input " value=" "> Hosting Services
-                            </label>
-                        </div>
-                        <div class="form-check-inline ">
-                            <label class="form-check-label ">
-                                <input type="checkbox " class="form-check-input " value=" "> Graphic Designing &nbsp;
-                            </label>
-                        </div>
-                        <div class="form-check-inline ">
-                            <label class="form-check-label ">
-                                <input type="checkbox " class="form-check-input " value=" "> Branding & Promotions
-                            </label>
-                        </div>
-
-                        <div class="form-check-inline ">
-                            <label class="form-check-label ">
-                                <input type="checkbox " class="form-check-input " value=" "> Logo Desiging
-                            </label>
-                        </div>
-                        <br />
-                        <br />
-                        <div class="form-group input-group ">
-                            <textarea name="message " id="msg " class="form-control " placeholder="Write your Requirement... " cols="30 " rows="2 " required="required "></textarea>
-                        </div>
-                        <div class="form-group ">
-                            <input type="submit " name="submit " id="submit " class="btn btn-secondary btn-block " value="Send ">
-                        </div>
-                        <div class="form-check d-flex align-items-center text-center ">
-                            <input type="checkbox " class="form-check-input mt-0 mr-3 " id="exampleCheck1 ">
-                            <label class="form-check-label text-muted " for="exampleCheck1 ">I agree your <a href="# ">terms &amp; conditions</a></label>
-                        </div>
-                    </form>
-
-                </div>
-
-            </div>
-        </div>
     </div>
 
     <!--footer section start-->
