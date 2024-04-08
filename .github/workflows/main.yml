@@ -18,4 +18,4 @@ jobs:
               git fetch --all &&
               git reset --hard origin/develop &&
               git pull origin develop &&
-              sudo cp -i -r -f -n . ${TARGET_DIR}.
+              cp -a -rf . ${TARGET_DIR}.
