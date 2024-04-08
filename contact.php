@@ -99,7 +99,7 @@ include 'cdn.php';
                                 </div>
                                 <div>
                                     <h5 class="h6">Visit Us</h5>
-                                    <p class="text-muted mb-0">Vijayawada</p>
+                                    <p class="text-muted mb-0">Vijayawada,HongKong</p>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@ include 'cdn.php';
                                 <div>
                                     <h5 class="h6">Mail Us</h5>
                                     <a href="mailto:projects@jhaishna.com">
-                                        <p class="text-muted mb-0">projects@jhaishna.com</p>
+                                        <p class="text-muted mb-0">Info@jhaishna.com</p>
                                     </a>
                                 </div>
                             </div>
@@ -194,8 +194,8 @@ include 'cdn.php';
                         <div class="contact-us-content">
                             <h2>Looking for Internship and Various Services?</h2>
                             <p class="lead">Open to all passionate and emerging individuals.</p>
-                            <a href="contact-us.php" class="btn btn-outline-secondary align-items-center">Get Directions
-                                <span class="ti-arrow-right pl-2"></span></a>
+                            <!--<a href="contact-us.php" class="btn btn-outline-secondary align-items-center">Get Directions
+                                <span class="ti-arrow-right pl-2"></span></a>-->
                             <hr class="my-5">
                             <h5>Visit Us</h5>
                             <address>
@@ -205,7 +205,7 @@ include 'cdn.php';
                             <span>Phone: <a href="tel:+91 96865 44129" class="link-color">+91 7893696993, +91
                                     9686544129</a></span> <br>
                             <span>Email: <a href="projects@jhaishna.com"
-                                    class="link-color">projects@jhaishna.com</a></span>
+                                    class="link-color">Info@jhaishna.com</a></span>
                         </div>
                     </div>
                 </div>

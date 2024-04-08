@@ -43,7 +43,7 @@
                     <div class="col-sm-6 col-lg-3">
                         <h5 class="mb-4">Connect With Us</h5>
                         <ul class="links-vertical">
-                            <li><a target="_blank" href="mailto:projects@jhaishna.com">Work :projects@jhaishna.com</a></li>
+                            <li><a target="_blank" href="mailto:projects@jhaishna.com">Work :Info@jhaishna.com</a></li>
                             <li><a target="_blank" href="mailto:hr@jhaishna.com">Jobs :hr@jhaishna.com</a></li>
                             <div class="btn-wrapper mt-4">
                                <a href="https://twitter.com/Jyeshta5?s=09"> <button class="btn btn-icon-only btn-pill btn-twitter mr-2 icon icon-xs icon-shape" type="button" data-toggle="tooltip" data-placement="top" title=""  Followers">

@@ -58,61 +58,79 @@
                             <ul class="dropdown-menu">
                                 <li class="dropdown-submenu">
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">software Development<i class="fas fa-angle-right nav-link-arrow"></i></a>-->
-                                    <a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">Billing Revenue Management<i class="fas fa-angle-right nav-link-arrow"></i></a>
-                                    <ul class="dropdown-menu">
+                                    <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">Billing Revenue Management<i class="fas fa-angle-right nav-link-arrow"></i></a>-->
+                                    <a class="dropdown-item " href="softdev.php" aria-expanded="false">Oracle Communication Consulting.</a>
+                                    <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="softdev.php">Account Creation</a></li>
                                         <li><a class="dropdown-item" href="softdev.php">Service Provisioning</a></li>
                                         <li><a class="dropdown-item" href="softdev.php">Billing</a></li>
                                         <li><a class="dropdown-item" href="softdev.php">Invoice Generation</a></li>
-                                        <!--<li><a class="dropdown-item" href="softdev.php">E-Commerce & Shopify Websites</a></li>
-                                        <li><a class="dropdown-item" href="softdev.php">WordPress Development</a></li>-->
-                                    </ul>
+                                        <li><a class="dropdown-item" href="softdev.php">E-Commerce & Shopify Websites</a></li>
+                                        <li><a class="dropdown-item" href="softdev.php">WordPress Development</a></li>
+                                    </ul>-->
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">OBRM Access Portal (OAP) <i class="fas fa-angle-right nav-link-arrow"></i></a>
-                                    <ul class="dropdown-menu">
+                                    <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">OBRM Access Portal (OAP) <i class="fas fa-angle-right nav-link-arrow"></i></a>-->
+                                    <a class="dropdown-item " href="Tailered.php" aria-expanded="false">Tailered Billing Solution.</a>
+                                    <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="mob.php">Account Creation</a></li>
                                         <li><a class="dropdown-item" href="mob.php">Service Provisioning</a></li>
                                         <li><a class="dropdown-item" href="mob.php">Customer ticket module</a></li>
-                                    </ul>
+                                    </ul>-->
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">Automated Service Activation Program <span>&nbsp;&nbsp;</span><i class="fas fa-angle-right nav-link-arrow"></i></a>
-                                    <ul class="dropdown-menu">
+                                    <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">Automated Service Activation Program <span>&nbsp;&nbsp;</span><i class="fas fa-angle-right nav-link-arrow"></i></a>-->
+                                    <a class="dropdown-item "href="CRM.php" aria-expanded="false">Tailered CRM System.</a>
+                                    <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="digi.php">Validations</a></li>
                                         <li><a class="dropdown-item" href="digi.php">Configurations</a></li>
                                         <li><a class="dropdown-item" href="digi.php">Performance Tuning</a></li>
                                         <li><a class="dropdown-item" href="digi.php">Service Automation</a></li>
-                                        <!--<li><a class="dropdown-item" href="digi.php">Google-Ads Management</a></li>-->
-                                    </ul>
+                                        <<li><a class="dropdown-item" href="digi.php">Google-Ads Management</a></li>
+                                    </ul>-->
                                 </li>
-                                <!--<li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false"> Monitoring <i class="fas fa-angle-right nav-link-arrow"></i></a>
-                                    <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false"> Monitoring <i class="fas fa-angle-right nav-link-arrow"></i></a>-->
+                                    <a class="dropdown-item " href="Transform.php" aria-expanded="false">Digitial Bussiness Transformation.</a>
+                                    <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="corpo.php">Event and Analysis</a></li>-->
                                        <!-- <li><a class="dropdown-item" href="corpo.php">Log Monitoring</a></li>
                                         <li><a class="dropdown-item" href="corpo.php">User Activity Monitoring</a></li>-->
                                         <!--<li><a class="dropdown-item" href="corpo.php">Application Performance Monitoring</a></li>
-                                    </ul>
-                                </li>-->
-                                <!--<li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">Self-Care<i class="fas fa-angle-right nav-link-arrow"></i></a>
-                                    <ul class="dropdown-menu">
+                                    </ul>-->
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">Self-Care<i class="fas fa-angle-right nav-link-arrow"></i></a>-->
+                                    <a class="dropdown-item " href="cloud.php" aria-expanded="false">Cloud Migration And Automation</a>
+                                    <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="add-on.php">Server Maintenance</a></li>
                                         <li><a class="dropdown-item" href="add-on.php">Hosting Services</a></li>
                                         <li><a class="dropdown-item" href="add-on.php">Studio Recoding</a></li>
-                                    </ul>
-                                </li>-->
+                                    </ul>-->
+                                </li>
+                                <li class="dropdown-submenu">
+                                <a class="dropdown-item " href="invoice.php" aria-expanded="false">E-Invoicing Software.</a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                <a class="dropdown-item " href="digital.php" aria-expanded="false">Digitial Manufacturing Platform</a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                <a class="dropdown-item " href="trail.php" aria-expanded="false">Staff Augmentation</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                                <span class="nav-link-inner-text">Careers</span>
-                                <i class="fas fa-angle-down nav-link-arrow ml-1"></i>
-                            </a>
-                            <ul class="sub-menu dropdown-menu">
+                        <!--<li class="nav-item dropdown">
+                            <a href="internship.php" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                <span class="nav-link-inner-text">Careers </span>-->
+                                <!--<a class="dropdown-item " href="" aria-expanded="false">Careers</a>-->
+                                <!--<i class="fas fa-angle-down nav-link-arrow ml-1"></i>
+                            </a>-->
+                            <!--<ul class="sub-menu dropdown-menu">
                                 <li><a class="dropdown-item" href="internship.php">Internship Details</a></li>
                             </ul>
+                            </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="job.php">Career</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" target="_blank" href="blogdetails.php">Corporate Blog</a>

@@ -82,25 +82,27 @@ include 'cdn.php';
                                 <h3 class="h5 card-title mt-3">Full Stack Developer</h3>
                             </a>
                         </div>
-                        <span class="font-small">CTC - &#8377; 2,00,000 - 2,50,000 PA</span>
+                        <!--<span class="font-small">CTC - &#8377; 2,00,000 - 2,50,000 PA</span>-->
                     </div>
                     <div class="text-right">
                         <span class="small"><span class="fas fa-briefcase mr-2"></span>Experience - Freshers</span>
                     </div>
                     <span class="font-small"><strong>Description</strong></span>
                     <p class="card-text mt-2">We are looking for a full stack developer to produce scalable software solutions. <br/>If you are looking for an entry-level jobs, you can ping us to the mail id.
-                    <br/>Interested Candidates can Share Your Resume To Mail Id: <a href="mailto:projects@jhaishna.com">projects@jhaishna.com</a></p>
+                    <br/>Interested Candidates can Share Your Resume To Mail Id: <a href="mailto:hr@jhaishna.com">hr@jhaishna.com</a></p>
                     <span class="font-small"><strong>Required Skills</strong></span>
-                    <p class="card-text mt-2">-Strong understanding of relational and non relational databases (MySql, Postgresql, MongoDB, Cassandra). <br/>-Ability to design and implement low latency RESTful services.
+                    <p class="card-text mt-2">-Strong understanding of relational and non relational databases (MySql, Postgresql, PHP,CSS,HTML,JAVASCRIPT,REACT JS). <br/>-Ability to design and implement low latency RESTful services.
                     <br/>-Experience with microservices and web application/services development.<br/>-Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems.<br/>-
                     Understanding of End-to-End lifecycle of product/feature.<br/>-Experience in event-driven & asynchronous I/O frameworks.<br/>-Exposure to business process and workflow automation.<br/>-Strong knowledge of CS fundamentals, data structures.</p>
                     <div class="text-right ml-0 pl-0">
-                        <a href="https://form.jotform.com/jyeshtatechworld/Premier-Round-Interview" class="link-with-icon text-default font-small font-weight-bold" target="_blank"><button class="btn btn-info">Submit Your CV Here<span> <i class="fas fa-long-arrow-alt-right"></i></span></button></a>
+                        <!--<a href="https://form.jotform.com/jyeshtatechworld/Premier-Round-Interview" class="link-with-icon text-default font-small font-weight-bold" target="_blank"><button class="btn btn-info">Submit Your CV Here<span> <i class="fas fa-long-arrow-alt-right"></i></span></button></a>-->
+                <a href="https://form.jotform.com/240951603242449" class="link-with-icon text-default font-small font-weight-bold" target="_blank"><button class="btn btn-info">Submit Your CV Here<span> <i class="fas fa-long-arrow-alt-right"></i></span></button></a>
+
                     </div>
                 </div>
             </div>
         </div>
-        <section class="">
+        <!--<section class="">
         <div class="col-12 mb-4 mt-4">
             <div class="card bg-white border-variant-soft shadow-soft">
                 <div class="card-body">
@@ -109,12 +111,12 @@ include 'cdn.php';
                             <a href="contact.php" data-toggle="tooltip" data-placement="top" title="job role" data-original-title="">
                                 <h3 class="h5 card-title mt-3">UI/UX Designer</h3>
                             </a>
-                        </div>
-                        <span class="font-small">CTC - &#8377; 2,50,000 - 3,50,000 PA</span>
-                    </div>
-                    <div class="text-right">
-                        <span class="small"><span class="fas fa-briefcase mr-2"></span>Experience - 0 to 2 years</span>
-                    </div>
+                        </div>-->
+                        <!--<span class="font-small">CTC - &#8377; 2,50,000 - 3,50,000 PA</span>-->
+                    <!--</div>
+                    <div class="text-right">-->
+                        <!--<span class="small"><span class="fas fa-briefcase mr-2"></span>Experience - 0 to 2 years</span>-->
+                    <!--</div>
                     <span class="font-small"><strong>Description</strong></span>
                     <p class="card-text">We are looking a UI/UX Designer to join our creative team. To be successful in this role, you should have experience with <br/>design softare and wireframe tools.
                     If you also have a portfolio of professional design projects that includes work with web/mobile applications,
@@ -125,8 +127,8 @@ include 'cdn.php';
                 </div>
             </div>
         </div>
-        <section class="">
-        <div class="col-12 mb-4 mt-4">
+        <section class="">-->
+        <!--<div class="col-12 mb-4 mt-4">
             <div class="card bg-white border-variant-soft shadow-soft">
                 <div class="card-body">
                     <div class="media d-flex align-items-center justify-content-between">
@@ -148,7 +150,7 @@ include 'cdn.php';
                     <br/>Interested Candidates can Share Your Resume here: <a href="mailto:hr@jhaishna.com">hr@jhaishna.com</a></p>
                     <div class="text-right ml-0 pl-0">
                         <a href="contact.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank"><button class="btn btn-info">Apply<span> <i class="fas fa-long-arrow-alt-right"></i></span></button></a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
