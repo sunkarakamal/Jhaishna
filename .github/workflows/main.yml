@@ -18,4 +18,4 @@ jobs:
               git fetch --all &&
               git reset --hard origin/develop &&
               git pull origin develop &&
-              cp -a -rf . ${TARGET_DIR}.
+              cp -a -rf . /var/www/html/.
