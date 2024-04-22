@@ -5,6 +5,7 @@ include 'cdn.php';
 <html lang="en">
 
 <head>
+ 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -148,7 +149,7 @@ include 'cdn.php';
                         <div class="contact-us-form bg-soft rounded p-5">
                             <h4>Ready to get started?</h4>
 
-                            <form method="POST" action="submit.php">
+                          <!--  <form method="POST" action="submit.php">
 
                                 <div class="form-row">
                                     <div class="col-12">
@@ -169,12 +170,121 @@ include 'cdn.php';
                                             <input type="tel" class="form-control" name="phone"
                                                 placeholder="Enter your number" required>
                                         </div>
-                                    </div>
-                                    <div class="col-12">
+                                    </div>-->
+                        
+
+<form method="POST" action="submit.php">
+   
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+    </div>
+    <div class="col-18">
+    <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" class="form-control" id="phone" placeholder="Enter your number" name="phone" required>
+    </div>
+    
+    <div id="captchaContainer" style="display: flex; align-items: center;">
+                    <div id="captcha" style="text-align: justify; font-size:40px; margin-bottom: 10px;"></div>
+                    <button type="button" id="regenerateCaptcha" class="btn btn-secondary" style="margin-left: 10px; font-size: 10px;">Recaptcha</button>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <input type="text" id="captchaInput" placeholder="Enter CAPTCHA" required
+                        style="width: 45%; padding: 10px; border: 2px solid hsl(0, 0%, 80%); border-radius: 4px; box-sizing: border-box;">
+                </div>
+                
+                <div class="col-18">
+                <div class="form-group">
+                                            <textarea name="message" id="message" class="form-control" rows="3"
+                                                cols="5" placeholder="Message" required></textarea>
+                                        </div>
+                                        <div class="col-18">
+                                        <div class="col-sm-12 mt-3 text-center">
+                                        <!--<button type="submit" name="submit" class="btn btn-secondary" id="submit" value="validateCaptcha()">
+                                            Send <Message-->
+
+                                            <button type="submit" name="submit" class="btn btn-secondary" id="submit" onclick="return validateCaptcha()">
+                                              Send Message
+                                            </button>
+                                      
+
+                
+            </form>
+        </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    
+
+    
+
+<script>
+    function generateNumericCaptcha() {
+        var captcha = '';
+        var length = 6; 
+    
+        for (var i = 0; i < length; i++) {
+            captcha += Math.floor(Math.random() * 10); 
+        }
+    
+        document.getElementById('captcha').innerText = captcha;
+    }
+    
+ 
+    function validateCaptcha() {
+        
+        var captchaInput = document.getElementById('captchaInput').value.trim();
+        
+       
+        var captchaDisplayed = document.getElementById('captcha').innerText;
+    
+        if (captchaInput === captchaDisplayed) {
+         
+            return true;
+        } else {
+          
+            alert("CAPTCHA validation failed. Please try again.");
+            generateNumericCaptcha(); 
+            return false;
+        }
+    }
+    
+    
+    function submitForm() {
+       
+        if (validateCaptcha()) {
+         
+            document.getElementById('loginForm').submit();
+        }
+    }
+    
+
+    generateNumericCaptcha(); 
+
+    document.getElementById('regenerateCaptcha').addEventListener('click', function () {
+            generateNumericCaptcha();
+        });
+    window.onload = generateNumericCaptcha;
+    </script>
+                                
+                                        
+
+
+                           <!--<div class="col-12">
                                         <div class="form-group">
-                                            <textarea name="message" id="message" class="form-control" rows="7"
+                                            <textarea name="message" id="message" class="form-control" rows="3"
                                                 cols="25" placeholder="Message" required></textarea>
                                         </div>
+                                        
                                     </div>
                                     <div class="col-sm-12 mt-3 text-center">
                                         <button type="submit" name="submit" class="btn btn-secondary" id="submit">
@@ -189,7 +299,9 @@ include 'cdn.php';
                                 </div>
                             </form>
                         </div>
-                    </div>
+                        </div>-->
+    
+                    
                     <div class="col-md-5">
                         <div class="contact-us-content">
                             <h2>Looking for Internship and Various Services?</h2>
@@ -232,9 +344,7 @@ include 'cdn.php';
 
     </div>
 
-
-
-    <!--footer section start-->
+   <!--footer section start-->
     <?php
     include 'footer.php';
     ?>
@@ -244,6 +354,7 @@ include 'cdn.php';
         <span class="fas fa-hand-point-up"></span>
     </button>
     <!--scroll bottom to top button end-->
+    
     <!--endbuild-->
 </body>
 
