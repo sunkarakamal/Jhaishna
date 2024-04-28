@@ -52,14 +52,14 @@ include 'cdn.php';
                             <p><strong>Restrictions</strong></p>
                             You are specifically restricted from all of the following:
                             <ul>
-                                <li>publishing any Website material in any other media;</li>
-                                <li>selling, sublicensing and/or otherwise commercializing any Website material;</li>
-                                <li>publicly performing and/or showing any Website material;</li>
-                                <li>using this Website in any way that is or may be damaging to this Website;</li>
-                                <li>using this Website in any way that impacts user access to this Website;</li>
-                                <li>using this Website contrary to applicable laws and regulations, or in any way may cause harm to the Website, or to any person or business entity;</li>
-                                <li>engaging in any data mining, data harvesting, data extracting or any other similar activity in relation to this Website;</li>
-                                <li>using this Website to engage in any advertising or marketing.</li>
+                                <li>Publishing any Website material in any other media.</li>
+                                <li>Selling, sublicensing and/or otherwise commercializing any Website material.</li>
+                                <li>Publicly performing and/or showing any Website material.</li>
+                                <li>Using this Website in any way that is or may be damaging to this Website.</li>
+                                <li>Using this Website in any way that impacts user access to this Website.</li>
+                                <li>Using this Website contrary to applicable laws and regulations, or in any way may cause harm to the Website, or to any person or business entity.</li>
+                                <li>Engaging in any data mining, data harvesting, data extracting or any other similar activity in relation to this Website.</li>
+                                <li>Using this Website to engage in any advertising or marketing.</li>
                             </ul>
                             Certain areas of this Website are restricted from being access by you and Jhaishna technologies may further restrict access by you to any areas of this Website, at any time, in absolute discretion. Any user ID and password you may have for this Website are confidential and you must maintain confidentiality as well.
                             <br /><br />
