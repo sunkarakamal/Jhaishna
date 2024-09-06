@@ -130,7 +130,7 @@ encompassing telecommunications and internet service providers. It empowers thes
                             <div class="col-12 col-sm-6">
                                 <div class="card bg-default text-white shadow-soft rounded mb-4">
                                     <div class="px-3 px-lg-4 py-5 text-center">
-                                    <img src="crm.jpg"> </img>
+                                    <img src="staffagumentation.jpg"> </img>
                                         <span class="icon icon-lg d-block"><i class="fas fa-user-shield"></i></span>
                                         <p class="mb-0">We deliver bespoke software with absolute focus on your specific
                                             business needs. Our experienced team has a proven track record of delivering

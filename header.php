@@ -59,7 +59,7 @@
                                 <li class="dropdown-submenu">
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">software Development<i class="fas fa-angle-right nav-link-arrow"></i></a>-->
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">Billing Revenue Management<i class="fas fa-angle-right nav-link-arrow"></i></a>-->
-                                    <a class="dropdown-item " href="softdev.php" aria-expanded="false">Oracle Communication Consulting.</a>
+                                    <a class="dropdown-item " href="softdev.php" aria-expanded="false">Oracle Communication Consulting</a>
                                     <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="softdev.php">Account Creation</a></li>
                                         <li><a class="dropdown-item" href="softdev.php">Service Provisioning</a></li>
@@ -71,7 +71,7 @@
                                 </li>
                                 <li class="dropdown-submenu">
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">OBRM Access Portal (OAP) <i class="fas fa-angle-right nav-link-arrow"></i></a>-->
-                                    <a class="dropdown-item " href="Tailered.php" aria-expanded="false">Tailered Billing Solution.</a>
+                                    <a class="dropdown-item " href="Tailered.php" aria-expanded="false">Tailered Billing Solution</a>
                                     <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="mob.php">Account Creation</a></li>
                                         <li><a class="dropdown-item" href="mob.php">Service Provisioning</a></li>
@@ -80,7 +80,7 @@
                                 </li>
                                 <li class="dropdown-submenu">
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">Automated Service Activation Program <span>&nbsp;&nbsp;</span><i class="fas fa-angle-right nav-link-arrow"></i></a>-->
-                                    <a class="dropdown-item "href="CRM.php" aria-expanded="false">Tailered CRM System.</a>
+                                    <a class="dropdown-item "href="CRM.php" aria-expanded="false">Tailered CRM System</a>
                                     <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="digi.php">Validations</a></li>
                                         <li><a class="dropdown-item" href="digi.php">Configurations</a></li>
@@ -91,7 +91,7 @@
                                 </li>
                                 <li class="dropdown-submenu">
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false"> Monitoring <i class="fas fa-angle-right nav-link-arrow"></i></a>-->
-                                    <a class="dropdown-item " href="Transform.php" aria-expanded="false">Digitial Bussiness Transformation.</a>
+                                    <a class="dropdown-item " href="Transform.php" aria-expanded="false">Digitial Bussiness Transformation</a>
                                     <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="corpo.php">Event and Analysis</a></li>-->
                                        <!-- <li><a class="dropdown-item" href="corpo.php">Log Monitoring</a></li>
@@ -109,13 +109,16 @@
                                     </ul>-->
                                 </li>
                                 <li class="dropdown-submenu">
-                                <a class="dropdown-item " href="invoice.php" aria-expanded="false">E-Invoicing Software.</a>
+                                <a class="dropdown-item " href="invoice.php" aria-expanded="false">E-Invoicing Software</a>
                                 </li>
                                 <li class="dropdown-submenu">
                                 <a class="dropdown-item " href="digital.php" aria-expanded="false">Digitial Manufacturing Platform</a>
                                 </li>
                                 <li class="dropdown-submenu">
                                 <a class="dropdown-item " href="trail.php" aria-expanded="false">Staff Augmentation</a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                <a class="dropdown-item " href="MES.php" aria-expanded="false">MES</a>
                                 </li>
                             </ul>
                         </li>
@@ -133,7 +136,7 @@
                             <a class="nav-link" target="_blank" href="job.php">Career</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="blogdetails.php">Corporate Blog</a>
+                            <a class="nav-link" target="_blank" href="blogdetails.php">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact Us</a>

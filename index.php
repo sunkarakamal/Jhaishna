@@ -167,9 +167,9 @@ We take pride in offering comprehensive support & product management services, s
                     </div>
                     <div class="col-md-12 col-lg-5">
                         <div class="about-content-right">
-                            <h2>Manifest  Solutions for Your Business Needs</h2>
+                            <!-- <h2>Manifest  Solutions for Your Business Needs</h2>
                             <p>With over 7 years of experience, Jhaishna Technologies has been at the forefront of providing cutting-edge solutions in billing and revenue management. Our track record speaks for itself, as we have successfully assisted numerous clients in optimizing their financial operations.
-                            </p>
+                            </p> -->
                             <div class="feature-tabs-wrap">
                                 <ul class="nav nav-tabs mb-3 border-bottom-0 feature-tabs" data-tabs="tabs">
                                     <li class="nav-item">
@@ -314,9 +314,20 @@ We take pride in offering comprehensive support & product management services, s
             </div>
         </section>
         <!--work-process section end-->
-
+        <section class="py-0 text-white lozad">
+<div>
+<video autoplay muted loop class="video-background" style="margin: left 10px;"width=100% >
+        <source src="assets\img\video.mp4" type="video/mp4">
+            <div class="container" style="margin: left 10px;">
+            
+                <div class="row" style="margin: left 10px;">
+</div>
+                <!--<video autoplay muted loop class="video-background" style="margin: left 10px;">
+        <source src="Clients (1).mp4" type="video/mp4">-->
+</div>
+</section>
         <!--features section start-->
-        <section class="section section-lg bg-soft ">
+        <!--<section class="section section-lg bg-soft ">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
@@ -329,7 +340,7 @@ We take pride in offering comprehensive support & product management services, s
 
                 <div class="row">
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <!-- Icon box -->
+                         Icon box 
                         <div class="icon-box text-center">
                             <div class="card-icon mb-4">
                                 <img src="assets/img/icon/softdev.svg" alt="icon" width="60" class="img-fluid lozad">
@@ -337,10 +348,10 @@ We take pride in offering comprehensive support & product management services, s
                             <h2 class="h5">Contact management</h2>
                             <p class="mb-0">We develop one of the most efficient software in affordable prize that is more user friendly.</p>
                         </div>
-                        <!-- End of Icon box -->
+                         End of Icon box 
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <!-- Icon box -->
+                         Icon box 
                         <div class="icon-box text-center">
                             <div class="card-icon mb-4">
                                 <img src="assets/img/icon/mobile.svg" alt="icon" width="60" class="img-fluid lozad">
@@ -348,10 +359,10 @@ We take pride in offering comprehensive support & product management services, s
                             <h2 class="h5">Lead management</h2>
                             <p class="mb-0">You can also find our excellently designed mobile apps that are multi interface including all the trending features. </p>
                         </div>
-                        <!-- End of Icon box -->
+                         End of Icon box 
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <!-- Icon box -->
+                         Icon box 
                         <div class="icon-box text-center">
                             <div class="card-icon mb-4">
                                 <img src="assets/img/icon/digital.svg" alt="icon" width="60" class="img-fluid">
@@ -360,10 +371,10 @@ We take pride in offering comprehensive support & product management services, s
                             <p class="mb-0">We deploy one of our best marketing strategies on digital platforms to boost your business along with SEO & content moderation on social media.
                             </p>
                         </div>
-                        <!-- End of Icon box -->
+                         End of Icon box 
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <!-- Icon box -->
+                         Icon box 
                         <div class="icon-box text-center">
                             <div class="card-icon mb-4">
                                 <img src="assets/img/icon/brand.svg" alt="icon" width="60" class="img-fluid lozad">
@@ -373,10 +384,10 @@ We take pride in offering comprehensive support & product management services, s
                             <p class="mb-0">We also promote the brand name of a corporate entity in specific with products and services. We apply specific strategy for improving your brand name.
                             </p>
                         </div>
-                        <!-- End of Icon box -->
+                         End of Icon box 
                     </div>
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 mb-md-0">
-                        <!-- Icon box -->
+                         Icon box 
                         <div class="icon-box text-center">
                             <div class="card-icon mb-4">
                                 <img src="assets/img/icon/add-on.svg" alt="icon" width="60" class="img-fluid">
@@ -384,10 +395,10 @@ We take pride in offering comprehensive support & product management services, s
                             <h2 class="h5">Workflow automation</h2>
                             <p class="mb-0">We also own a well equipped studio that can contribute to produce the required contents for your business promotions like advertisement.</p>
                         </div>
-                        <!-- End of Icon box -->
+                         End of Icon box 
                     </div>
                     <div class="col-md-6 col-lg-4 mb-lg-0 mb-md-0">
-                        <!-- Icon box -->
+                        Icon box
                         <div class="icon-box text-center">
                             <div class="card-icon mb-4">
                                 <img src="assets/img/icon/training.svg" alt="icon" width="60" class="img-fluid lozad">
@@ -395,15 +406,15 @@ We take pride in offering comprehensive support & product management services, s
                             <h2 class="h5">Project management</h2>
                             <p class="mb-0">One of many premium features include giving corporate communication training and provide intership in IT sector.</p>
                         </div>
-                        <!-- End of Icon box -->
+                         End of Icon box 
                     </div>
                 </div>
             </div>
         </section>
-        <!--features section end-->
+        features section end
 
         <!--blog section start-->
-        <section class="section section-lg">
+        <!--<section class="section section-lg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -446,7 +457,7 @@ We take pride in offering comprehensive support & product management services, s
                                     <div class="d-flex align-items-center">
                                         <span class="small"><span class="far fa-calendar-alt mr-2"></span>15 March 2020</span>
                                     </div>
-                                </div> -->
+                                </div> 
                                 <h3 class="h5 card-title mt-3"><a href="business-imp-blog.php">Importance of BRM to your businesss</a></h3>
                                 <p class="card-text text-justify">
                                 They say the world is now in our hands and the information is at our fingertips. There are no second thoughts to that. The world of the internet is fantastic. It continues to transform the way we connect with people, share information, and live a quality life.A lot of people spend most of their time on the internet. This could be for buying a product, using a service, reading a blog, entertaining themselves.
@@ -470,12 +481,116 @@ We take pride in offering comprehensive support & product management services, s
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!--blog section end-->
+       <!-- <section class="section section-lg py-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-heading text-center mb-5">
+          <h2>Our Latest Blogs</h2>
+          <p class="lead">Dynamically pursue reliable convergence rather than 24/7 process improvements develop end-to-end customer service.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets/img/2p.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
+            <a target="_blank" href="pandemicblog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3"><a target="_blank" href="pandemicblog.php">Our Vision for Cutting-Edge Solutions</a></h3>
+            <p class="card-text text-justify">We lead the charge in innovation, pushing boundaries to redefine possibilities. Seamlessly integrating technology into everyday life, enhancing experiences through intuitive, user-centric design. Creating a brighter future with technologies that minimize environmental impact while maximizing efficiency and effectiveness.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-0">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets/img/3p.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
+            <a href="business-imp-blog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3"><a href="business-imp-blog.php">Nurturing Talent in a Dynamic Environment</a></h3>
+            <p class="card-text text-justify">In our dynamic environment, we prioritize nurturing talent through various means. We encourage a culture of continuous learning, where employees have access to resources and opportunities for skill development. Empowerment is key - we provide autonomy and support for individuals to explore their interests and innovate.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-0">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets/img/4p.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="resume">
+            <a href="resumeblog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3"><a href="resumeblog.php">Fostering Collaboration and Inclusivity</a></h3>
+            <p class="card-text text-justify">In our organization, fostering collaboration and inclusivity is paramount. We believe that diverse perspectives and experiences are fundamental to driving innovation and creativity. Therefore, we actively promote an inclusive culture.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>-->
+
+<section class="section section-lg py-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-heading text-center mb-5">
+          <h2>Our Latest Blogs</h2>
+          <p class="lead">Dynamically pursue reliable convergence rather than 24/7 process improvements develop end-to-end customer service.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets/img/cutting.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
+            <a target="_blank" href="pandemicblog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3"><a target="_blank" href="pandemicblog.php">Our Vision for Cutting-Edge Solutions</a></h3>
+            <p class="card-text text-justify">We lead the charge in innovation, pushing boundaries to redefine possibilities. Seamlessly integrating technology into everyday life, enhancing experiences through intuitive, user-centric design. Creating a brighter future with technologies that minimize environmental impact while maximizing efficiency and effectiveness.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-0">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets/img/talent.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
+            <a href="business-imp-blog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3"><a href="business-imp-blog.php">Nurturing Talent in a Dynamic Environment</a></h3>
+            <p class="card-text text-justify">In our dynamic environment, we prioritize nurturing talent through various means. We encourage a culture of continuous learning, where employees have access to resources and opportunities for skill development. Empowerment is key - we provide autonomy and support for individuals to explore their interests and innovate.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-0">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets/img/collabration.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="resume">
+            <a href="resumeblog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3"><a href="resumeblog.php">Fostering Collaboration and Inclusivity</a></h3>
+            <p class="card-text text-justify">In our organization, fostering collaboration and inclusivity is paramount. We believe that diverse perspectives and experiences are fundamental to driving innovation and creativity. Therefore, we actively promote an inclusive culture.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 
         <!--testimonial section start-->
-        <section class="section section-lg  bg-primary">
+       <!-- <section class="section section-lg  bg-primary">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
@@ -640,7 +755,7 @@ We take pride in offering comprehensive support & product management services, s
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!--testimonial section end-->
 
         <!--cta section start-->
@@ -739,39 +854,29 @@ We take pride in offering comprehensive support & product management services, s
     </div>
   </div>-->
 
-<section class="py-0 text-white lozad">
-<div>
-<video autoplay muted loop class="video-background" style="margin: left 10px;"width=100% >
-        <source src="assets\img\video.mp4" type="video/mp4">
-            <div class="container" style="margin: left 10px;">
-            
-                <div class="row" style="margin: left 10px;">
-</div>
-                <!--<video autoplay muted loop class="video-background" style="margin: left 10px;">
-        <source src="Clients (1).mp4" type="video/mp4">-->
-</div>
-</section>
+
 
         <!--cta section start-->
-        <section class="section section-sm bg-soft py-5 ">
-        <div class="section section-sm bg-gradient-primary">
-            <div class="container">
-            
-                <div class="row justify-content-around align-items-center">
-                    <div class="col-md-7">
-                        <div class="subscribe-content">
-                            <h3><strong>Ready to Discuss Your Project?</strong></h3>
-</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="action-btn text-lg-right text-sm-left"style="margin-right:20px;">
-                            <a href="contact.php" class="btn btn-primary">Get a Quote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section class="section section-sm bg-soft py-0">
+  <div class="section section-sm bg-gradient-primary">
+    <div class="container">
+
+      <div class="row justify-content-around align-items-center">
+        <div class="col-md-7">
+          <div class="subscribe-content">
+            <h3><strong>Ready to Discuss Your Project?</strong></h3>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="action-btn text-lg-right text-sm-left" style="margin-right:20px;">
+            <a href="contact.php" class="btn btn-primary">Get a Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
         <!--cta section end-->
     </div>
 

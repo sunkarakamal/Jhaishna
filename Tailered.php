@@ -14,7 +14,7 @@ include 'cdn.php';
 
     <!--title-->
     <!--<title>Web Applications</title>-->
-    <title>Our Tailored Billing Solution</title>
+    <title>Our Tailered Billing Solution</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PD36XE5CJ"></script>
@@ -50,11 +50,11 @@ include 'cdn.php';
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>Our Tailored Billing Solution</h1>
+                                <h1>Our Tailered Billing Solution</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
                                         <li class="breadcrumb-item"><a href="index.php">Services</a></li>
-                                        <li class="breadcrumb-item active"><a href="Tailered.php">Our Tailored Billing Solution</a></li>
+                                        <li class="breadcrumb-item active"><a href="Tailered.php">Our Tailered Billing Solution</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -69,7 +69,7 @@ include 'cdn.php';
         <div class="container">
     <div class="row">
         <div class="col-sm-6">
-        <h2>Our Tailored Billing Solution :</h2>
+        <h2>Our Tailered Billing Solution :</h2>
   <ul>
     <li>Cost-Effective Solutions: Prioritize delivering cost-effective solutions that provide exceptional value to businesses.</li>
     <li>Custom Software Development: Expertise in designing and developing customized software solutions that streamline operations and improve efficiency.</li>
@@ -79,10 +79,10 @@ include 'cdn.php';
 
 </div>
         <div class="col-sm-6 mb-3">
-    <img src="assets\img\tailered.jpg"  style="width: 500px; height: 300px; margin-left:80px;">
+    <img src="assets\img\tail.jpg"  style="width: 500px; height: 300px; margin-left:80px;">
     <section class="bg-primary text-white py-5"style= "margin-left:80px;width: 500px;">
     <div class="container">
-        <h4>Tailored Billing Solution</h4>
+        <h4>Tailered Billing Solution</h4>
         <div class="row justify-content-center">
             <div>
                 <ul>

@@ -50,7 +50,7 @@ include 'cdn.php';
                                     <p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p>
                                 </li>
                                 <li>
-                                    <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to 40-5/3-9, Tikkle Road, N.g.o Colony Syam Nagar, Vijayawada Andhra Pradesh - 520010.</p>
+                                    <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to JTW, Opp Dwaraka Paradize, Kothapet Jct Rd, Nuzividu, Andhra Pradesh-521201.</p>
                                 </li>
                                 <li>
                                     <p><strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</p>
