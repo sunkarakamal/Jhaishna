@@ -84,7 +84,7 @@ include 'cdn.php';
   </ul>
 </div>
         <div class="col-sm-6 mb-3">
-    <img src="assets\img\digital.jpg"  style="width: 500px; height: 300px; margin-left:80px;">
+    <img src="assets\img\training\digitial1.jpg"  style="width: 500px; height: 300px; margin-left:80px;">
     <section class="bg-secondary text-white py-5"style= "margin-left:80px;width: 500px;">
     <div class="container">
         <h4>Digital Business Transformation</h4>

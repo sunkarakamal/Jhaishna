@@ -73,7 +73,7 @@ src="https://www.facebook.com/tr?id=212751893562565&ev=PageView&noscript=1"
                                 <h1>Know Us Better</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                                       
                                         <li class="breadcrumb-item active" aria-current="page">About Us</li>
                                     </ol>
                                 </nav>
@@ -90,7 +90,8 @@ src="https://www.facebook.com/tr?id=212751893562565&ev=PageView&noscript=1"
                 <div class="row align-items-center justify-content-lg-between problems">
                     <div class="col-md-5 col-lg-5 problem">
                         <div class="feature-content section-title">
-                            <h1>WE ARE</br> <span>PROBLEM SOLVERS</span></h1>
+                            <!--<h1>WE ARE</br> <span>PROBLEM SOLVERS</span></h1>-->
+                            <img class="fancy-radius img-fluid" src="assets/img/about.us.jpg" alt="modern desk">
 
                         </div>
                     </div>
@@ -133,11 +134,11 @@ src="https://www.facebook.com/tr?id=212751893562565&ev=PageView&noscript=1"
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-lg-8">
-                        <div class="section-heading text-center">
+                        <!-- <div class="section-heading text-center">
                             <h2>Manifest our Solutions for Your Business Needs</h2>
                             <p class="lead justify-content-center">Jhaishna is a professional outsourcing Web and Software Development Company that successfully operates in the Overall Business since 2016. Overview every business needs an effective web presence, whether purely virtual or a brick-and-mortar
                                 store. Jhaishna has successfully helped design and implement web sites and web applications for clients for over 1 year.</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="row">

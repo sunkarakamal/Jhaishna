@@ -6,7 +6,7 @@
                         <a class="footer-brand mr-lg-5 d-flex" href="index.php">
                             <img src="assets/img/viyaanwhite.png" class="mr-3" alt="Footer logo">
                         </a>
-                        <p class="my-4">Jhaishna is a professional outsourcing Web and Software Development Company that successfully operates in the Overall Business since 2016.</p>
+                        <p class="my-4">Jhaishna is a professional outsourcing Web and Software Development Company that successfully operates in the vast business sectors since 2016.</p>
                         <ul class="links-vertical">
                         </ul>
                     </div>
@@ -43,8 +43,8 @@
                     <div class="col-sm-6 col-lg-3">
                         <h5 class="mb-4">Connect With Us</h5>
                         <ul class="links-vertical">
-                            <li><a target="_blank" href="mailto:projects@jhaishna.com">Work : Info@jhaishna.com</a></li>
-                            <li><a target="_blank" href="mailto:hr@jhaishna.com">Jobs : hr@jhaishna.com</a></li>
+                            <li><a target="_blank" href="mailto:projects@jhaishna.com">Work: Info@jhaishna.com</a></li>
+                            <li><a target="_blank" href="mailto:hr@jhaishna.com">Jobs: hr@jhaishna.com</a></li>
                             <div class="btn-wrapper mt-4">
                                <a href="https://twitter.com/Jyeshta5?s=09"> <button class="btn btn-icon-only btn-pill btn-twitter mr-2 icon icon-xs icon-shape" type="button" data-toggle="tooltip" data-placement="top" title=""  Followers">
                                     <span aria-hidden="true" class="fab fa-twitter"></span>

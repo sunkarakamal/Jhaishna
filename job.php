@@ -14,6 +14,7 @@ include 'cdn.php';
 
     <!--title-->
     <title>Careers - Jobs</title>
+    
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PD36XE5CJ"></script>
@@ -70,11 +71,18 @@ include 'cdn.php';
             </div>
         </section>
         <!--page header section end-->
+<style>
+        .curved-card {
+    border-radius: 15px; /* Adjust the value to control the curvature */
+
+}
+</style>
 
     <!-- internship details start -->
+     
     <section class="">
         <div class="col-12 mb-4 mt-4">
-            <div class="card bg-white border-variant-soft shadow-soft">
+            <div class="card bg-white border-variant-soft shadow-soft curved-card">
                 <div class="card-body">
                     <div class="media d-flex align-items-center justify-content-between">
                         <div class="post-group">
@@ -85,7 +93,7 @@ include 'cdn.php';
                         <!--<span class="font-small">CTC - &#8377; 2,00,000 - 2,50,000 PA</span>-->
                     </div>
                     <div class="text-right">
-                        <span class="small"><span class="fas fa-briefcase mr-2"></span>Experience - Freshers</span>
+                        <span class="small"><span class="fas fa-briefcase mr-2"></span>Experience - Fresher Graduates</span>
                     </div>
                     <span class="font-small"><strong>Description</strong></span>
                     <p class="card-text mt-2">We are looking for a full stack developer to produce scalable software solutions. <br/>If you are looking for an entry-level jobs, you can ping us to the mail id.
@@ -154,6 +162,172 @@ include 'cdn.php';
                 </div>
             </div>
         </div>
+        <section class="section section-lg  bg-primary">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-9 col-lg-8">
+                        <div class="section-heading mb-5 text-center text-white">
+                            <h2>Reviews regarding the Career Support & Training</h2>
+                            <p class="lead">
+                            when they want to look back on their career and be proud of their work, and be proud that they tried everything.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-lg-12">
+                        <div class="owl-carousel owl-theme client-testimonial custom-dot">
+                            <div class="item">
+                                <div class="testimonial-single shadow-sm bg-white rounded-custom p-5">
+                                    <div class="quotation mb-4">
+                                        <span class="icon icon-md icon-lg  icon-light "><i class="fas fa-quote-left"></i></span>
+                                    </div>
+                                    <blockquote class="blockquote">
+                                        Excellent place to learn the concepts of designing tools. I had already completed my internship years ago and wanted to take up a refresher here, but it kind of turned out to be a high impactful training session.
+                                    </blockquote>
+                                    <div class="d-flex justify-content-md-between justify-content-lg-between align-items-center pt-3">
+                                        <div class="media align-items-center">
+                                        
+                                            <div class="media-body">
+                                                <h6 class="mb-0">Mounika</h6>
+                                                <small>Juniour Software Developer</small>
+                                            </div>
+                                        </div>
+                                        <div class="client-ratting d-none d-md-block d-lg-block">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star-half-alt ratting-color"></i></span></li>
+                                            </ul>
+                                            <span class="font-weight-bold small">4.3 <span class="font-weight-lighter">Out of 5</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-single shadow-sm bg-white rounded-custom p-5">
+                                    <div class="quotation mb-4">
+                                        <span class="icon icon-md icon-lg  icon-light "><i class="fas fa-quote-left"></i></span>
+                                    </div>
+                                    <blockquote class="blockquote">
+                                    It looks professional & organized, & I had a very challenging time putting it all together & it is very rewarding knowing that I put in my best effort. I was able to complete this internship successfully  
+                                    & that instilled a new confidence in myself that I didn't have before. I thank Jhaishna for all support.
+                                    </blockquote>
+                                    <div class="d-flex justify-content-md-between justify-content-lg-between align-items-center pt-3">
+                                          <div class="media align-items-center">
+                                        
+                                            <div class="media-body">
+                                                <h6 class="mb-0">Kavya ML</h6>
+                                                <small>Software Engineer</small>
+                                            </div>
+                                        </div>
+                                        <div class="client-ratting d-none d-md-block d-lg-block">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star-half-alt ratting-color"></i></span></li>
+                                            </ul>
+                                            <span class="font-weight-bold small">4.3 <span class="font-weight-lighter">Out of 5</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-single shadow-sm bg-white rounded-custom p-5">
+                                    <div class="quotation mb-4">
+                                        <span class="icon icon-md icon-lg  icon-light "><i class="fas fa-quote-left"></i></span>
+                                    </div>
+                                    <blockquote class="blockquote">
+                                        The training included the explaining of every topic in detail with live instances. So in a way you would learn topics more practically & can easily connect with your day to day work which makes it a lot more simple & effective learning.
+                                    </blockquote>
+                                    <div class="d-flex justify-content-md-between justify-content-lg-between align-items-center pt-3">
+                                        <div class="media align-items-center">
+                                          
+                                            <div class="media-body">
+                                                <h6 class="mb-0">Vara Prasad</h6>
+                                                <small>Operation Executive</small>
+                                            </div>
+                                        </div>
+                                        <div class="client-ratting d-none d-md-block d-lg-block">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                            </ul>
+                                            <span class="font-weight-bold small">5.0 <span class="font-weight-lighter">Out of 5</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-single shadow-sm bg-white rounded-custom p-5">
+                                    <div class="quotation mb-4">
+                                        <span class="icon icon-md icon-lg  icon-light "><i class="fas fa-quote-left"></i></span>
+                                    </div>
+                                    <blockquote class="blockquote">
+                                        If you actually want to learn the web & app designing concepts, then this is the place. I am very pleased to say that this Training was an absolute delight & total value for money though it was completely online. I was able to understand all concepts clearly.                                    </blockquote>
+                                    <div class="d-flex justify-content-md-between justify-content-lg-between align-items-center pt-3">
+                                        <div class="media align-items-center">
+                                           
+                                            <div class="media-body">
+                                                <h6 class="mb-0">Divya</h6>
+                                                <small>Intern</small>
+                                            </div>
+                                        </div>
+                                        <div class="client-ratting d-none d-md-block d-lg-block">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="far fa-star"></i></span></li>
+                                            </ul>
+                                            <span class="font-weight-bold small">4.0 <span class="font-weight-lighter">Out of 5</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial-single shadow-sm bg-white rounded-custom p-5">
+                                    <div class="quotation mb-4">
+                                        <span class="icon icon-md icon-lg  icon-light "><i class="fas fa-quote-left"></i></span>
+                                    </div>
+                                    <blockquote class="blockquote">
+                                        This training gave me the confidence of driving projects on my own and got an opportunity to mentor a couple of students as well. I would recommend this institute for learning the concepts of website designing.
+                                    </blockquote>
+                                    <div class="d-flex justify-content-md-between justify-content-lg-between align-items-center pt-3">
+                                        <div class="media align-items-center">
+                                          
+                                            <div class="media-body">
+                                                <h6 class="mb-0">Ram Krishna</h6>
+                                                <small>Software Analyst</small>
+                                            </div>
+                                        </div>
+                                        <div class="client-ratting d-none d-md-block d-lg-block">
+                                            <ul class="list-inline mb-0">
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                                <li class="list-inline-item mr-0"><span class="icon icon-xs font-small text-warning"><i class="fas fa-star ratting-color"></i></span></li>
+                                            </ul>
+                                            <span class="font-weight-bold small">5.0 <span class="font-weight-lighter">Out of 5</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
         <!-- internship details end -->
 
@@ -163,15 +337,15 @@ include 'cdn.php';
             <div class="row justify-content-around align-items-center">
                 <div class="col-md-7">
                     <div class="subscribe-content">
-                        <h3>Ready to Discuss Your Project?</h3>
-                        <p class="mb-lg-0 mb-md-0">Let's talk about your project. Send us a message and we will be in touch within one business day.</p>
+                        <h3>“Looking for exciting opportunities?</h3>
+                        <p class="mb-lg-0 mb-md-0">Realize your potential and inspire others to realize theirs as part of a company that strives for innovation and creativity which changes billions of lives "Join Jhaishna”.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!--<div class="col-md-4">
                     <div class="action-btn text-lg-right text-sm-left">
                         <a href="contact.php" class="btn btn-primary">Get a Quote</a>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>

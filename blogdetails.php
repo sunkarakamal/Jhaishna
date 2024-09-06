@@ -46,9 +46,9 @@
                                 <h3>How To BUILD  CAREER</h3>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="blogdetails.php">Blog</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Software Architect</li>
+                                       
+                                        <li class="breadcrumb-item"><a href="blogdetails.php">New Blog</a></li>
+                                        
                                     </ol>
                                 </nav>
                             </div>
@@ -61,7 +61,7 @@
         <br>
         <!--page header section end-->
 
-        <div class="container-fluid p-0">
+      <!--  <div class="container-fluid p-0">
         <div class="row justify-content-center">
         <img src="assets\img\blog.jpg" class="justify-content-center" style="width: 80%;" alt="Responsive Image">
   </div>
@@ -74,7 +74,7 @@
             <ul class="post-meta list-unstyled d-flex list-inline justify-content-center">
               <!--<li class="mr-4 font-small font-weight-bold">April 04, 2024</li>
               <li class="mr-4 font-small font-weight-bold">In <a href="#">career</a>, <a href="#">Design</a></li>-->
-              <!-- <li class="mr-4 font-small font-weight-bold"><a href="#">3 Comments</a></li> -->
+              <!-- <li class="mr-4 font-small font-weight-bold"><a href="#">3 Comments</a></li> 
             </ul>
           </div>
         </div>
@@ -120,9 +120,9 @@
         <p>We value and recognize the contributions of our employees, including student achievements. Our employee recognition programs ensure that your hard work doesn't go unnoticed.</p>
       </div>
     </div>
-  </div>
+  </div>-->
 
-  <section class="section section-lg">
+  <!--<section class="section section-lg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -164,11 +164,11 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
                                     <div class="d-flex align-items-center">
                                         <span class="small"><span class="far fa-calendar-alt mr-2"></span>15 March 2020</span>
                                     </div>
-                                </div> -->
+                                </div> 
                                 <h3 class="h5 card-title mt-3"><a href="business-imp-blog.php">Nurturing Talent in a Dynamic Environment</a></h3>
                                 <p class="card-text text-justify">
                                 In our dynamic environment, we prioritize nurturing talent through various means. We encourage a culture of continuous learning, where employees have access to resources and opportunities for skill development. Empowerment is keywe provide autonomy and support for individuals to explore their interests and innovate . 
-                                <!--<a href="business-imp-blog.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>-->
+                                <!--<a href="business-imp-blog.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
                             </div>
                         </div>
                     </div>
@@ -181,13 +181,64 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
                             <div class="card-body">
                                 <h3 class="h5 card-title mt-3"><a href="resumeblog.php">Fostering Collaboration and Inclusivity</a></h3>
                                 <p class="card-text text-justify">In our organization, fostering collaboration and inclusivity is paramount. We believe that diverse perspectives and experiences are fundamental to driving innovation and creativity. Therefore, we actively promote an inclusive culture </p>
-                                <!--<a href="resumeblog.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>-->
+                                <!--<a href="resumeblog.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
+        <section class="section section-lg py-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-heading text-center mb-5">
+          <h2>Our Latest Blogs</h2>
+          <p class="lead">Dynamically pursue reliable convergence rather than 24/7 process improvements develop end-to-end customer service.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets/img/cutting.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
+            <a target="_blank" href="pandemicblog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3">Our Vision for Cutting-Edge Solutions</a></h3>
+            <p class="card-text text-justify">We lead the charge in innovation, pushing boundaries to redefine possibilities. Seamlessly integrating technology into everyday life, enhancing experiences through intuitive, user-centric design. Creating a brighter future with technologies that minimize environmental impact while maximizing efficiency and effectiveness.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-0">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets/img/talent.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
+            <a href="business-imp-blog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3">Nurturing Talent in a Dynamic Environment</a></h3>
+            <p class="card-text text-justify">In our dynamic environment, we prioritize nurturing talent through various means. We encourage a culture of continuous learning, where employees have access to resources and opportunities for skill development. Empowerment is key - we provide autonomy and support for individuals to explore their interests and innovate.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-0">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets/img/collabration.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="resume">
+            <a href="resumeblog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3">Fostering Collaboration and Inclusivity</a></h3>
+            <p class="card-text text-justify">In our organization, fostering collaboration and inclusivity is paramount. We believe that diverse perspectives and experiences are fundamental to driving innovation and creativity. Therefore, we actively promote an inclusive culture.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <?php
     include 'footer.php';
