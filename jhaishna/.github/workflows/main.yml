@@ -1,0 +1,21 @@
+on:
+  push:
+    branches:
+    - main
+jobs:
+  web:
+    name: Deploy web for jhaishna
+    runs-on: self-hosted
+    steps:
+      - name: Checkout the files
+        uses: actions/checkout@v4
+      - name: Deploy to ec2
+        run: |
+             pwd
+              # Now we have got the access of EC2 and we will start the deploy .
+              # cd /root/jhaishna/Jhaishna &&
+              git checkout main &&
+              git fetch --all &&
+              git reset --hard origin/main &&
+              git pull origin main &&
+              sudo cp -a -rf . /var/www/html/.
