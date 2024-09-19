@@ -17,8 +17,8 @@ jobs:
              pwd
               # Now we have got the access of EC2 and we will start the deploy .
               # cd /root/jhaishna/Jhaishna &&
-              git checkout develop &&
+              git checkout master &&
               git fetch --all &&
-              git reset --hard origin/develop &&
-              git pull origin develop &&
+              git reset --hard origin/master &&
+              git pull origin master &&
               sudo cp -a -rf . /var/www/html/.
