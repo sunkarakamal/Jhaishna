@@ -47,12 +47,10 @@
                                 <span class="nav-link-inner-text">Home</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about-us.php">About Us</a>
-                        </li>
+                        
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                                <span class="nav-link-inner-text">Services </span>
+                                <span class="nav-link-inner-text">Digital Services </span>
                                 <i class="fas fa-angle-down nav-link-arrow ml-1"></i>
                             </a>
                             <ul class="dropdown-menu">
@@ -71,7 +69,16 @@
                                 </li>
                                 <li class="dropdown-submenu">
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">OBRM Access Portal (OAP) <i class="fas fa-angle-right nav-link-arrow"></i></a>-->
-                                    <a class="dropdown-item " href="Tailered.php" aria-expanded="false">Tailered Billing Solution</a>
+                                    <a class="dropdown-item " href="Tailered.php" aria-expanded="false">Tailered Billing Platform</a>
+                                    <!--<ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="mob.php">Account Creation</a></li>
+                                        <li><a class="dropdown-item" href="mob.php">Service Provisioning</a></li>
+                                        <li><a class="dropdown-item" href="mob.php">Customer ticket module</a></li>
+                                    </ul>-->
+                                </li>
+                                <!--<li class="dropdown-submenu">
+                                    <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">OBRM Access Portal (OAP) <i class="fas fa-angle-right nav-link-arrow"></i></a>-->
+                                    <!--<a class="dropdown-item " href="lms.php" aria-expanded="false">Loan Management System(LMS)</a>-->
                                     <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="mob.php">Account Creation</a></li>
                                         <li><a class="dropdown-item" href="mob.php">Service Provisioning</a></li>
@@ -89,16 +96,16 @@
                                         <<li><a class="dropdown-item" href="digi.php">Google-Ads Management</a></li>
                                     </ul>-->
                                 </li>
-                                <li class="dropdown-submenu">
+                               <!-- <li class="dropdown-submenu">
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false"> Monitoring <i class="fas fa-angle-right nav-link-arrow"></i></a>-->
-                                    <a class="dropdown-item " href="Transform.php" aria-expanded="false">Digitial Bussiness Transformation</a>
-                                    <!--<ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="corpo.php">Event and Analysis</a></li>-->
+                                
+                                    <!--<ul class="dropdown-menu">-->
+                                        <!--<a class="dropdown-item" href="Transform.php" aria-expanded="false">Digitial Bussiness Transformation</a>-->
                                        <!-- <li><a class="dropdown-item" href="corpo.php">Log Monitoring</a></li>
                                         <li><a class="dropdown-item" href="corpo.php">User Activity Monitoring</a></li>-->
                                         <!--<li><a class="dropdown-item" href="corpo.php">Application Performance Monitoring</a></li>
                                     </ul>-->
-                                </li>
+                               <!-- </li>-->
                                 <li class="dropdown-submenu">
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">Self-Care<i class="fas fa-angle-right nav-link-arrow"></i></a>-->
                                     <a class="dropdown-item " href="cloud.php" aria-expanded="false">Cloud Migration And Automation</a>
@@ -108,18 +115,22 @@
                                         <li><a class="dropdown-item" href="add-on.php">Studio Recoding</a></li>
                                     </ul>-->
                                 </li>
-                                <li class="dropdown-submenu">
+                                <!--<li class="dropdown-submenu">
                                 <a class="dropdown-item " href="invoice.php" aria-expanded="false">E-Invoicing Software</a>
-                                </li>
-                                <li class="dropdown-submenu">
+                                </li>-->
+                                <!-- <li class="dropdown-submenu">
                                 <a class="dropdown-item " href="digital.php" aria-expanded="false">Digitial Manufacturing Platform</a>
-                                </li>
+                                </li> -->
                                 <li class="dropdown-submenu">
                                 <a class="dropdown-item " href="trail.php" aria-expanded="false">Staff Augmentation</a>
                                 </li>
                                 <li class="dropdown-submenu">
+                                  
+                                        <a class="dropdown-item" href="Transform.php" aria-expanded="false">Digitial Bussiness Transformation</a>
+                                        </li>
+                                <!-- <li class="dropdown-submenu">
                                 <a class="dropdown-item " href="MES.php" aria-expanded="false">MES</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </li>
                         <!--<li class="nav-item dropdown">
@@ -132,11 +143,48 @@
                                 <li><a class="dropdown-item" href="internship.php">Internship Details</a></li>
                             </ul>
                             </li>-->
+                            <li class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+                                <span class="nav-link-inner-text">Products </span>
+                                <i class="fas fa-angle-down nav-link-arrow ml-1"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                
+                            <a class="dropdown-item " href="MES.php" aria-expanded="false">MXCloud</a>
+                            </li> 
+                            <li class="dropdown-submenu">
+                                   
+                                   <a class="dropdown-item " href="lms.php" aria-expanded="false">Loan Management System(LMS)</a>
+                                   </li>
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item " href="invoice.php" aria-expanded="false">E-Invoicing Software</a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                <a class="dropdown-item " aria-expanded="false">Fiber Optics</a>
+                                
+                                <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="onu.php">Triple Play ONU+OTT</a></li>
+                                        <li><a class="dropdown-item" href="wifi.php">ONU+WIFI</a></li>
+                                        <li><a class="dropdown-item" href="ott.php">OTT-Smart Android IPTV Box</a></li>
+                                        <li><a class="dropdown-item" href="outdoor.php">Outdoor WIFI</a></li>
+                                        
+                                    </ul>
+                                    </li>
+                               
+                             </ul>
+                            </li>
                         <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="job.php">Career</a>
+                            <a class="nav-link" target="_blank" href="job.php">Careers</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="blogdetails.php">Blog</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="mes2.php">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="blogdetails.php">Blog</a>
+                            <a class="nav-link" href="about-us.php">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact Us</a>

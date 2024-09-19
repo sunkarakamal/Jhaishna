@@ -256,9 +256,9 @@ include 'cdn.php';
                                 <li>
                                     <p>By visiting this page on our website: <a href="https://www.jhaishna.com/" rel="external nofollow noopener" target="_blank">https://www.jhaishna.com/</a></p>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <p>By phone number: <a href="tel:9441294345">9441294345</a>, <a href="tel:9441294647">9441294647</a></p>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </section>

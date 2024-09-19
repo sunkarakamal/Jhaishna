@@ -47,7 +47,7 @@
                                 <h3>MXCloud</h3>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item">Products</a></li>
+                                     <li class="breadcrumb-item">Blog</a></li>
                                         <!-- <li class="breadcrumb-item"><a href="blogdetails.php">Blog</a></li> -->
                                         <li class="breadcrumb-item active" aria-current="page">MXCloud</li>
                                     </ol>
@@ -61,11 +61,11 @@
         <!--page header section end-->
 
         <!--blog section start-->
-        <!-- <section class="section section-lg ">
+        <section class="section section-lg ">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9 col-md-8 mb-5 mb-md-0 mb-lg-0 mx-auto">
-                        <!-- Post
+                        <!-- Post-->
                         <div class="post">
                         
                             <div class="post-preview"><img src="assets\img\mes.jpg" alt="Full-stack-png" class="img-fluid" /></div>
@@ -87,7 +87,7 @@
                                         <div class="col-lg-12 col-md-12 text-center">
                                             <a href="internship.php" class="btn btn-secondary mt-0">View Course Details</a>
                                         </div>
-                                    </div><br/>
+                                    </div><br/>--->
                                     <div class="post-preview text-center"><img src="assets\img\mes1.jpg" alt="Full-stack-png" class="img-fluid" /></div>
                                   <br/>
                                  
@@ -111,7 +111,7 @@
                                         <li>5.Data-Driven Decision Making: Access to real-time, accurate data enables informed decision-making at all levels of the organization.</li>
                                     </ul>
                                 </div>
-                                <!--<p class="pt-2"><strong>Additional skills to learn</strong> Servers Networks Design CMS-Git Data structure and algorithms  </p>
+                                <!--<p class="pt-2"><strong>Additional skills to learn</strong> Servers Networks Design CMS-Git Data structure and algorithms  </p>-->
                                 <div class="post-preview text-center"><img src="assets\img\mes2.jpg" class="img-fluid" /></div>
                                 
                                 <h4 class="pt-4">Role of MES in waste reduction and ESG compliance</h4>
@@ -149,12 +149,12 @@
                                         <li>4.Connect SCADA/DCS with MES: Ensure seamless communication between your control systems and MES for real-time production data.</li>
                                         <li>5. Integrate IoT Devices: Connect smart sensors and devices in your production line, to feed data into your MES.</li>
                                         <li>6. Implement Advanced Analytics: Leverage the rich data from your integrated systems to leverage advanced analytics techniques like predictive analytics,  AI and Machine learning.</li>
-</ul> -->
-<section style="padding: 50px 0; background-color: #f0f2f5;">
+</ul>
+<!-- <section style="padding: 50px 0; background-color: #f0f2f5;">
   <div class="container text-center">
     <h1 class="display-4 text-primary mb-5">MXCloud: The Core Modules of MES</h1>
     <div class="row">
-      <!-- Product Catalog -->
+      <!-- Product Catalog 
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-boxes text-primary" style="font-size: 40px;"></i>
@@ -162,7 +162,7 @@
           <p>Comprehensive product repository management for manufacturing .</p>
         </div>
       </div>
-      <!-- Recipe Management -->
+      <!-- Recipe Management 
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-receipt text-primary" style="font-size: 40px;"></i>
@@ -170,7 +170,7 @@
           <p>Step-by-step guide to manufacture the products .</p>
         </div>
       </div>
-      <!-- Work Order Creation -->
+      <!-- Work Order Creation 
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-tasks text-primary" style="font-size: 40px;"></i>
@@ -181,7 +181,7 @@
     </div>
 
     <div class="row">
-      <!-- Scheduling -->
+      <!-- Scheduling 
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-calendar-alt text-primary" style="font-size: 40px;"></i>
@@ -189,7 +189,7 @@
           <p>Manage production scheduling at granular levels.</p>
         </div>
       </div>
-      <!-- Execution -->
+      <!-- Execution 
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-play-circle text-primary" style="font-size: 40px;"></i>
@@ -197,7 +197,7 @@
           <p>Manage actual execution of work orders.</p>
         </div>
       </div>
-      <!-- Tracking -->
+      <!-- Tracking 
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-search text-primary" style="font-size: 40px;"></i>
@@ -208,7 +208,7 @@
     </div>
 
     <div class="row">
-      <!-- Inventory Management -->
+      <!-- Inventory Management 
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-warehouse text-primary" style="font-size: 40px;"></i>
@@ -216,7 +216,7 @@
           <p>Manage inventory levels of raw materials and finished goods.</p>
         </div>
       </div>
-      <!-- Machine Management -->
+      <!-- Machine Management
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-cogs text-primary" style="font-size: 40px;"></i>
@@ -224,7 +224,7 @@
           <p>Manage and monitor machines on the shop floor.</p>
         </div>
       </div>
-      <!-- Shift Management -->
+      <!-- Shift Management 
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-users-cog text-primary" style="font-size: 40px;"></i>
@@ -235,7 +235,7 @@
     </div>
 
     <div class="row">
-      <!-- User Management -->
+      <!-- User Management
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-user-shield text-primary" style="font-size: 40px;"></i>
@@ -243,7 +243,7 @@
           <p>New user creation or registration.</p>
         </div>
       </div>
-      <!-- OEE -->
+      <!-- OEE 
       <div class="col-md-4 mb-4">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-chart-line text-primary" style="font-size: 40px;"></i>
@@ -251,7 +251,7 @@
           <p>Monitor OEE and improve equipment performance.</p>
         </div>
       </div>
-      <!-- SPC -->
+      <!-- SPC 
       <div class="col-md-4 mb-2">
         <div class="card p-4 shadow-sm border-0">
           <i class="fas fa-chart-pie text-primary" style="font-size: 40px;"></i>
@@ -261,11 +261,11 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
-                                <!-- <h4>Conclusion</h4>
+                                <h4>Conclusion</h4>
                                 <p>In an era where efficiency, quality, and agility are paramount, Manufacturing Execution Systems have become indispensable tools for modern manufacturers. By providing real-time insights, optimizing processes, and enabling data-driven decision-making, MES is not just a technology upgrade—it's a competitive necessity.</p>   
-                                <p>At Jhaishna Technologies, we're committed to helping manufacturers harness the full potential of MES. Our tailored solutions are designed to meet the unique needs of various industries, from automotive to pharmaceuticals. Ready to revolutionize your manufacturing operations? Let's talk about how our MES can transform your business.</p> -->
+                                <p>At Jhaishna Technologies, we're committed to helping manufacturers harness the full potential of MES. Our tailored solutions are designed to meet the unique needs of various industries, from automotive to pharmaceuticals. Ready to revolutionize your manufacturing operations? Let's talk about how our MES can transform your business.</p>
                                <!-- <h4>#9: Build portfolio</h4>
                                 <p>Build an effective portfolio that demonstrates your practical knowledge. This portfolio will help you build basic pages and assess your own performance apart from using this as a showcase while hunting for jobs. Keep developing until you are confident.</p>
                                 
@@ -325,7 +325,7 @@
                             </div>
                         </div>
                         <!-- Post end--> 
-                    <!-- </div> -->
+                    </div>
                     <!--<div class="col-lg-3 col-md-4">
                         <div class="sidebar-right pl-4">
 
@@ -377,32 +377,29 @@
                         </div>
                     </div>
                 </div>--->
-            <!-- </div> -->
+            </div>
 
-        <!-- </section> -->
+        </section>
         <!--blog section end
 
     </div>-->
-    <section style="padding: 50px 0; background-color: #f8f9fa;">
+    <!-- <section style="padding: 50px 0; background-color: #f8f9fa;">
   <div class="container text-center">
-    <!-- Demo Interest Prompt -->
-    <p class="lead text-dark mb-4">Interested in a demo? We are ready to show you how our solution can benefit your business. </p>
-    <p class="lead text-dark mb-4"> Contact us to schedule your personalized demo!</p>
-    <!-- <h2 class="display-5 text-dark mb-4">Contact Us</h2> -->
-    
-    <!-- <p class="lead text-secondary mb-4">Have questions or need more information? Reach out to us directly:</p> -->
-    
-    <!-- <a href="mailto:hr@jhaishna.com" class="btn btn-primary btn-lg" style="border-radius: 50px;">Email Us</a> -->
-    <!-- <p class="mt-3 text-secondary">Send us an email at <a href="mailto:hr@jhaishna.com" class="text-primary">hr@jhaishna.com</a></p> -->
-    <!-- <a href="mailto:loyolite172259@gmail.com" class="btn btn-primary btn-lg" style="border-radius: 50px;">Email us</a>
-     -->
-     <a href="contact.php" class="btn btn-primary btn-lg" style="border-radius: 50px;">Requesting For Free Demo</a>
+    <!-- Demo Interest Prompt 
+    <p class="lead text-dark mb-4">Interested in a demo? We are ready to show you how our solutions can benefit your business. Contact us to schedule your personalized demo!</p>
 
+    <h2 class="display-5 text-dark mb-4">Contact Us</h2>
+    
+    <p class="lead text-secondary mb-4">Have questions or need more information? Reach out to us directly:</p>
+    
+    <!-- <a href="mailto:hr@jhaishna.com" class="btn btn-primary btn-lg" style="border-radius: 50px;">Email Us</a> 
+    <p class="mt-3 text-secondary">Send us an email at <a href="mailto:hr@jhaishna.com" class="text-primary">hr@jhaishna.com</a></p>
+    
     <!-- <p class="mt-3 text-secondary">Call us at <a href="tel:+1234567890" class="text-primary">+1 (234) 567-890</a></p>
     
-    <p class="mt-3 text-secondary">Connect with us on LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" class="text-primary" target="_blank">LinkedIn Profile</a></p>-->
+    <p class="mt-3 text-secondary">Connect with us on LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" class="text-primary" target="_blank">LinkedIn Profile</a></p>
   </div> 
-</section>
+</section> -->
 
 
     

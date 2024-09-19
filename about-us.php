@@ -95,14 +95,14 @@ src="https://www.facebook.com/tr?id=212751893562565&ev=PageView&noscript=1"
 
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 mb-4 mb-md-4 mb-lg-0">
+                    <div class="col-md-6 col-lg-6 mb-3 mb-md-3 mb-lg-0">
                         <div class="feature-widget-wrap">
                             <div class="row justify-content-center">
                                 <div class="col-12">
                                     <div class="card card-body shadow mt-5">
                                         <div class="d-flex">
                                             <div class="mr-3 mr-md-4">
-                                                <div class="mb-4 p-3 p-md-4 icon icon-shape icon-md rounded-circle bg-default-alt text-default">
+                                                <div class="mb-3 p-3 p-md-4 icon icon-shape icon-md rounded-circle bg-default-alt text-default">
                                                     <i class="fas fa-trophy"></i>
                                                 </div>
                                             </div>
@@ -145,26 +145,34 @@ src="https://www.facebook.com/tr?id=212751893562565&ev=PageView&noscript=1"
                     <div class="col-md-12 col-lg-12">
                         <div class="feature-tabs-wrap">
                             <ul class="nav nav-tabs border-bottom-0 feature-tabs feature-tabs-center d-flex justify-content-center" data-tabs="tabs">
-                                <li class="nav-item">
-                                    <a class="nav-link d-flex align-items-center px-0 py-2" href="#feature-tab-1" data-toggle="tab">
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link d-flex align-items-center px-0 py-2 " href="#feature-tab-1" data-toggle="tab">
+                                    <a class="nav-link d-flex align-items-center px-0 py-2 " href="#feature-tab-1" data-toggle="tab">
+
                                         <h6 class="mb-0">About Us</h6>
                                     </a>
-                                </li>
+                                </li> -->
                                 <li class="nav-item">
+        <a class="nav-link d-flex align-items-center px-0 py-2 " href="#feature-tab-1" data-toggle="tab">
+            <h5 class="mb-0">About Us</h5>
+        </a>
+    </li>
+                               <!-- <li class="nav-item">
                                     <a class="nav-link d-flex align-items-center px-0 py-2 active" href="#feature-tab-3" data-toggle="tab">
-                                        <h6 class="mb-0">Why Clients Choose Us</h6>
+                                        <h6 class="mb-0">Why Choose Us</h6>
                                     </a>
-                                </li>
+                                </li> -->
+         
                                 <li class="nav-item">
                                     <a class="nav-link d-flex align-items-center px-0 py-2" href="#feature-tab-2" data-toggle="tab">
-                                        <h6 class="mb-0">What We Do</h6>
+                                       <h6 class="mb-0">Why Choose Us</h6>
                                     </a>
                                 </li>
                             </ul>
-                            <div class="tab-content feature-tab-content">
-                                <div class="tab-pane" id="feature-tab-1">
+                           <div class="tab-content feature-tab-content">
+                                <div class="tab-pane show active" id="feature-tab-1">
                                     <div class="row justify-content-between align-items-center">
-                                        <div class="col-12 col-md-5 col-lg-6 mb-4 mb-md-4 mb-lg-0">
+                                        <!-- <div class="col-12 col-md-5 col-lg-6 mb-4 mb-md-4 mb-lg-0">
                                             <div class="card bg-primary position-relative z-2 shadow-lg fancy-radius p-3">
                                                 <div class="dot-shape-top position-absolute">
                                                     <img src="assets/img/color-shape.svg" alt="dot" class="img-fluid">
@@ -174,31 +182,46 @@ src="https://www.facebook.com/tr?id=212751893562565&ev=PageView&noscript=1"
                                                     <img src="assets/img/dot-shape.png" alt="dot">
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
+                                        <div class="col-12 col-md-5 col-lg-6 mb-4 mb-md-4 mb-lg-0">
+    <div class="card bg-primary position-relative z-2 shadow-lg fancy-radius p-3">
+        <div class="dot-shape-top position-absolute">
+            <img src="assets/img/color-shape.svg" alt="dot" class="img-fluid">
+        </div>
+        <!-- Use object-fit: contain to preserve the original aspect ratio -->
+        <img class="fancy-radius img-fluid" src="assets/img/about.jpg" alt="modern desk" style="height: 400px; width: 100%; object-fit: contain;">
+        <div class="dot-shape position-absolute bottom-0">
+            <img src="assets/img/dot-shape.png" alt="dot">
+        </div>
+    </div>
+</div>
+
+
+
                                         <div class="col-12 col-md-7 col-lg-5">
                                             <div class="video-promo-content">
 
-                                                <p class="lead">Jhaishna is a privately held company, consisting of a creative and multi-talented team comprised of web designers, web developers and graphic designers. We have hired a highly skilful outsourcing developer’s
-                                                    team in Vijaywada – a great source of highly-qualified and talented professionals. Thanks to this we are able to provide our customers with the best services at a very competitive price.</p>
-                                                <ul class="list-unstyled tech-feature-list">
+                                                <p class="lead">Jhaishna is founded by leading Information and Communication Technology professionals who have witnessed various issues faced by clients, with a deep understanding of their needs, issues, business objectives and stands as a focused partner with the right experience..</p>
+                                                <p class="lead"> Jhaishna is committed to becoming a global technology leader, providing comprehensive solutions and high-quality communication products through continuous research and development and innovation to meet customers' personalized customization needs...</p>
+                                                <!-- <ul class="list-unstyled tech-feature-list">
                                                     <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"> <i class="ti-control-forward"></i></span><strong>BRM</strong> Services</li>
                                                     <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"> <i class="ti-control-forward"></i></span><strong>Accounting</strong> Procedures Guidebook</li>
                                                     <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"> <i class="ti-control-forward"></i></span><strong>Cost</strong> Accounting Fundamentals</li>
                                                     <li class="py-1"><span class="icon icon-xs mr-2 text-secondary"> <i class="ti-control-forward"></i></span><strong>SEO</strong> Optimization Services</li>
-                                                </ul>
-                                                <div class="action-btns mt-4">
+                                                </ul> -->
+                                                <!-- <div class="action-btns mt-4">
                                                     <a href="softdev.php" class="btn btn-primary  mr-2">View Services</a>
                                                     <a href="contact.php" class="btn btn-outline-primary ">Contact Us</a>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane active" id="feature-tab-3">
+                               <!-- <div class="tab-pane active" id="feature-tab-3">
                                     <div class="row">
                                         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                                             <!-- Icon box -->
-                                            <div class="icon-box text-center p-5 border border-variant-soft bg-white rounded-custom">
+                                   <!--         <div class="icon-box text-center p-5 border border-variant-soft bg-white rounded-custom">
                                                 <div class="card-icon mb-4">
                                                     <img src="assets/img/icon/help.svg" alt="icon" width="80" class="img-fluid">
                                                 </div>
@@ -206,10 +229,10 @@ src="https://www.facebook.com/tr?id=212751893562565&ev=PageView&noscript=1"
                                                 </h2>
 
                                             </div>
-                                            <!-- End of Icon box -->
+                                            <!-- End of Icon box 
                                         </div>
                                         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 mb-md-0">
-                                            <!-- Icon box -->
+                                            <!-- Icon box 
                                             <div class="icon-box text-center p-5 border border-variant-soft bg-white rounded-custom">
                                                 <div class="card-icon mb-4">
                                                     <img src="assets/img/icon/transparent.svg" alt="icon" width="80" class="img-fluid">
@@ -217,10 +240,10 @@ src="https://www.facebook.com/tr?id=212751893562565&ev=PageView&noscript=1"
                                                 <h2 class="h5">We build fruitful, long-term, and transparent relationships with our clients</h2>
 
                                             </div>
-                                            <!-- End of Icon box -->
+                                            <!-- End of Icon box 
                                         </div>
                                         <div class="col-md-6 col-lg-4 mb-lg-0 mb-md-0">
-                                            <!-- Icon box -->
+                                            <!-- Icon box 
                                             <div class="icon-box text-center p-5 border border-variant-soft bg-white rounded-custom">
                                                 <div class="card-icon mb-4">
                                                     <img src="assets/img/icon/icon-8.svg" alt="icon" width="60" class="img-fluid">
@@ -228,10 +251,10 @@ src="https://www.facebook.com/tr?id=212751893562565&ev=PageView&noscript=1"
                                                 <h2 class="h5">With Jhaishna, domain expertise and engineering excellence come hand in hand</h2>
 
                                             </div>
-                                            <!-- End of Icon box -->
+                                            <!-- End of Icon box 
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                                 <div class="tab-pane" id="feature-tab-2">
                                     <div class="row">
                                         <div class="col-12 col-lg-6 col-md-6 col-sm-6 mb-4">

@@ -13,7 +13,7 @@
     <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
 
     <!--title-->
-    <title>Professional Resume</title>
+    <title>Fostering Collaboration</title>
 
 </head>
 
@@ -42,12 +42,12 @@
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>Professional Resume</h1>
+                                <h1>Fostering Collaboration</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
                                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                         <li class="breadcrumb-item"><a href="blog.php">Blog</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Professional Resume</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Fostering Collaboration in Dynamic Environment</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -68,7 +68,7 @@
                             <div class="post-preview"><img src="assets/img/blog/resume.jpg" alt="resume" class="img-fluid" /></div><br/>
                             <div class="post-wrapper">
                                 <div class="post-header mt-4">
-                                    <h1 class="post-title h3">Crafting the Perfect Professional Resume</h1>
+                                    <h1 class="post-title h3">Crafting the Perfect Professional Career</h1>
                                     <ul class="post-meta list-unstyled d-flex list-inline">
                                         <li class="mr-4 font-small font-weight-bold">Apirl 01, 2024</li>
                                         <li class="mr-4 font-small font-weight-bold"><a href="#">Profile</a></li>
@@ -267,8 +267,8 @@
                                     <p class="text-justify">In the competitive jungle of the job market, the professional resume is your trusty vine—a crucial tool for swinging from the searching masses to the employed elite in the business world. It's your first impression; your snapshot of professional potential; your one shot at standing out from the nameless, faceless stacks of other applicants.</p>
                                     <p class="text-justify">A standout resume is not just a document listing your work history; it's a carefully crafted sales pitch that subtly, yet powerfully, markets your unique value to potential employers. Whether you're a fresh graduate stepping into the world of work, a seasoned professional looking to level up, or a brave soul pivoting careers, this comprehensive guide will transform the uphill battle of resume writing into a strategic, step-by-step ascent to job opportunities.</p>
 
-                                    <h3>Understanding the Anatomy of an Effective Professional Resume</h3>
-                                    <p class="text-justify">The anatomy of an effective professional resume is akin to a finely-tuned bicycle; all its parts work in synchrony to take you to your desired destination. Before you begin crafting your masterpiece, it's crucial to understand the essential components:</p>
+                                    <h3>Understanding the Anatomy of an Effective Professional Personality</h3>
+                                    <p class="text-justify">The anatomy of an effective professional Personality is akin to a finely-tuned bicycle; all its parts work in synchrony to take you to your desired destination. Before you begin crafting your masterpiece, it's crucial to understand the essential components:</p>
                                     
 
                                     <!-- <blockquote class="blockquote">

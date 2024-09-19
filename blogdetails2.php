@@ -211,7 +211,7 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
           </div>
         </div>
       </div> -->
-      <!-- <div class="col-12 col-md-6 col-lg-4 mb-0">
+      <!-- <div class="col-12 col-md-6 col-lg-3 mb-0">
         <div class="card bg-white border-variant-soft shadow-soft">
           <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
             <img src="assets/img/mes.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
@@ -223,21 +223,7 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
           </div>
         </div>
       </div> -->
-      <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
-  <a target="_blank" href="mes2.php" style="text-decoration: none; color: inherit;">
-    <div class="card bg-white border-variant-soft shadow-soft">
-      <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-        <img src="assets/img/mes.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
-        <span class="position-absolute category-text small badge badge-secondary"></span>
-      </div>
-      <div class="card-body">
-        <h3 class="h5 card-title mt-3">The Power of MES </h3>
-        <p class="card-text text">Optimize production processes with our MES for real-time monitoring and control. </p>
-      </div>
-    </div>
-  </a>
-</div>
-      <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
+      <!-- <div class="col-12 col-md-6 col-lg-3 mb-0" id="blogs">
   <a target="_blank" href="pandemicblog.php" style="text-decoration: none; color: inherit;">
     <div class="card bg-white border-variant-soft shadow-soft">
       <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
@@ -250,7 +236,7 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
       </div>
     </div>
   </a>
-</div>
+</div> -->
 
       <!-- <div class="col-12 col-md-6 col-lg-3 mb-0">
         <div class="card bg-white border-variant-soft shadow-soft">
@@ -264,7 +250,7 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
           </div>
         </div>
       </div> -->
-      <div class="col-12 col-md-6 col-lg-4 mb-0">
+      <!-- <div class="col-12 col-md-6 col-lg-3 mb-0">
   <a href="business-imp-blog.php" style="text-decoration: none; color: inherit;">
     <div class="card bg-white border-variant-soft shadow-soft">
       <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
@@ -277,7 +263,7 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
       </div>
     </div>
   </a>
-</div>
+</div> -->
 
       <!-- <div class="col-12 col-md-6 col-lg-3 mb-0">
         <div class="card bg-white border-variant-soft shadow-soft">
@@ -291,7 +277,7 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
           </div>
         </div>
       </div> -->
-      <!-- <div class="col-12 col-md-6 col-lg-3 mb-0">
+      <div class="col-12 col-md-6 col-lg-4 mb-0">
   <a href="resumeblog.php" style="text-decoration: none; color: inherit;">
     <div class="card bg-white border-variant-soft shadow-soft">
       <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
@@ -304,7 +290,7 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
       </div>
     </div>
   </a>
-</div> -->
+</div>
 
       <!-- <div class="col-12 col-md-6 col-lg-3 mb-0">
         <div class="card bg-white border-variant-soft shadow-soft">
@@ -341,9 +327,6 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
         <ul class="pagination">
             <!-- <li class="page-item" id="previous">
                 <a class="page-link border border-variant-soft rounded" href="#">Previous</a>
-            </li> -->
-            <!-- <li class="page-item" id="page-1">
-                <a class="page-link border border-variant-soft rounded" href="pandemicblog.php">1</a>
             </li> -->
             <li class="page-item" id="page-1">
                 <a class="page-link border border-variant-soft rounded" href="blogdetails.php">1</a>
@@ -386,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'pandemicblog.php',
         'business-imp-blog.php',
         'resumeblog.php',
-        'mes2.php'
+        'mes.php'
     ];
 
     const previousButton = document.getElementById('previous').querySelector('a');

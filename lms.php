@@ -14,7 +14,7 @@ include 'cdn.php';
 
     <!--title-->
     <!--<title>Web Applications</title>-->
-    <title>Tailered CRM System</title>
+    <title>Loan Management System</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PD36XE5CJ"></script>
@@ -44,17 +44,17 @@ include 'cdn.php';
     <?php
     include 'header.php';
     ?>
-    <section class="" style="background: url('assets/img/slidersoft.jpg')no-repeat center center / cover">
+    <section class="" style="background: url('assets/img/header-bg-5.jpg')no-repeat center center / cover">
             <div class="section-lg bg-gradient-primary text-white section-header">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>Tailered CRM System</h1>
+                                <h1>Loan Management System</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item">Digital Services</a></li>
-                                        <li class="breadcrumb-item active"><a href="CRM.php">Tailered CRM System</a></li>
+                                        <li class="breadcrumb-item">Products</a></li>
+                                        <li class="breadcrumb-item active"><a href="lms.php">Loan Management System</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -69,34 +69,33 @@ include 'cdn.php';
         <div class="container">
     <div class="row">
         <div class="col-sm-6">
-        <h2> Tailered CRM System :</h2>
-  <ul>
-    <li>Customization: Tailored CRM solutions to meet the specific needs and workflows of your business.</li>
-    <li>Integration: Seamless integration with existing systems and software for a unified view of customer data.</li>
-    <li>Automation: Automate repetitive tasks and streamline processes to increase productivity and efficiency.</li>
-    <li>Data Management: Centralized data management for better organization, accessibility, and data-driven decision-making.</li>
-    <li>Scalability: Scalable solutions that grow with your business and adapt to changing requirements.</li>
-    <li>Mobile Access: Access your CRM system anytime, anywhere, with mobile-friendly interfaces and apps.</li>
-    <li>Analytics and Reporting: Powerful analytics and reporting tools to gain insights into customer behavior and trends.</li>
-    <li>Customer Support: Enhance customer support and satisfaction with tools for tracking interactions and resolving issues.</li>
-    <li>Security: Robust security measures to protect sensitive customer data and ensure compliance with regulations.</li>
-    <li>Training and Support: Comprehensive training and ongoing support to maximize the benefits of your CRM system.</li>
-  </ul>
+        <h2> Loan Management System:</h2>
+        <ul>
+    <li>Automated Loan Processing: Automate loan application and approval processes.</li>
+    <li>Integration: Connect seamlessly with banking systems and credit agencies.</li>
+    <li>Real-Time Tracking: Monitor loan status, payments, and interest calculations instantly.</li>
+    <li>Loan Optimization: Adjust loan terms and offers based on customer profiles and analytics.</li> 
+    <li>Compliance Tracking: Ensure compliance with regulations and financial policies.</li>
+    <li>Personalized Offers: Provide tailored loan products based on customer data.</li>
+    <li>Reporting: Generate reports on loan performance, defaults, and profitability.</li>
+    <li>Scalability: Manage growing loan portfolios efficiently as business expands.</li>
+</ul>
+
+
 
 </div>
-        
-       
-        <div class="col-sm-6 mb-3">
-    <img src="assets\img\CRMpic.jpg"  style="width: 500px; height: 300px; margin-left:80px;">
-    <section class="bg-success text-white py-5"style= "margin-left:80px;width: 500px;">
+        <div class="col-sm-6 mb-1">
+    <img src="assets\img\platform.jpg"  style="width: 500px; height: 250px; margin-left:80px;">
+    <section class="bg-primary text-white py-5"style= "margin-left:80px;width: 500px;">
     <div class="container">
-        <h4>Tailered CRM System</h4>
+        <h4>Loan Management System</h4>
         <div class="row justify-content-center">
             <div>
-                <ul>
-                <li>Enhanced customer relationship management for personalized interactions.</li>
-                    <li>Customizable features to meet specific business requirements and workflows.</li>
-                </ul>
+            <ul>
+    <li>Streamlined loan processes through automation and optimization.</li>
+    <li>Real-time tracking and analytics for better decision-making and loan management.</li>
+</ul>
+
             </div>
         </div>
     </div>

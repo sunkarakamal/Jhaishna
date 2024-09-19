@@ -60,7 +60,7 @@ include 'cdn.php';
                                 <h1>Job Opportunities</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item"><a href="index.php">Careers</a></li>
+                                        <li class="breadcrumb-item">Careers</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Jobs</li>
                                     </ol>
                                 </nav>
@@ -92,13 +92,17 @@ include 'cdn.php';
                         </div>
                         <!--<span class="font-small">CTC - &#8377; 2,00,000 - 2,50,000 PA</span>-->
                     </div>
-                    <div class="text-right">
+                    <!-- <div class="text-right">
                         <span class="small"><span class="fas fa-briefcase mr-2"></span>Experience - Fresher Graduates</span>
-                    </div>
-                    <span class="font-small"><strong>Description</strong></span>
+                    </div> -->
+                    <!-- <span class="font-small"><strong>Description</strong></span> -->
+                    <span class="font-small" style="font-size: 1.0 rem; font-weight: bold; display: block; margin-bottom: 1rem; color: #000000;">
+    Description
+</span>
+
                     <p class="card-text mt-2">We are looking for a full stack developer to produce scalable software solutions. <br/>If you are looking for an entry-level jobs, you can ping us to the mail id.
                     <br/>Interested Candidates can Share Your Resume To Mail Id: <a href="mailto:hr@jhaishna.com">hr@jhaishna.com</a></p>
-                    <span class="font-small"><strong>Required Skills</strong></span>
+                    <span class="font-small" style="color : #000000;"><strong>Required Skills</strong></span>
                     <p class="card-text mt-2">-Strong understanding of relational and non relational databases (MySql, Postgresql, PHP,CSS,HTML,JAVASCRIPT,REACT JS). <br/>-Ability to design and implement low latency RESTful services.
                     <br/>-Experience with microservices and web application/services development.<br/>-Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems.<br/>-
                     Understanding of End-to-End lifecycle of product/feature.<br/>-Experience in event-driven & asynchronous I/O frameworks.<br/>-Exposure to business process and workflow automation.<br/>-Strong knowledge of CS fundamentals, data structures.</p>

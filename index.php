@@ -43,7 +43,7 @@ include 'cdn.php';
 
     <div class="main">
         <!--hero section start-->
-        <section class="section section-xl pt-9 pb-9 section-header text-white gradient-overly-right-color" style="background-image: url('assets/img/home-banner9.jpg')">
+        <section class="section section-xl pt-9 pb-9 section-header text-white gradient-overly-right-color" style="background-image: url('assets/img/home-banner3.jpg')">
             <div class="container">
                 <div class="row">
                     <div class="owl-carousel owl-theme hero-content-slider custom-dot custom-dot-2">
@@ -77,8 +77,8 @@ include 'cdn.php';
                         <div class="item">
                             <div class="col-md-8 col-lg-7 col-12">
                                 <div class="hero-content-wrap text-white">
-                                    <h1 class="display-2">Unlock a new era of convenience with our User-friendly platform! </h1>
-                                    <p class="lead">Manage subscriptions, make payments, and access billing details effortlessly and  take control of your system settings, user accounts, pricing plans, promotions, and user interface customization - all without the hassle of contacting customer support.</p>
+                                    <h1 class="display-2">Experience seamless access with CRM's user-friendly platform</h1>
+                                    <p class="lead">With CRM, easily manage customer relationships, sales pipelines, contacts, system settings, user accounts, pricing plans, promotions, and customize your interface with ease!.</p>
 
                                     <a href="contact.php" class="btn btn-secondary mt-3">Get Start Now</a>
                                 
@@ -89,7 +89,7 @@ include 'cdn.php';
                         <div class="item">
                             <div class="col-md-8 col-lg-7 col-12">
                                 <div class="hero-content-wrap">
-                                    <h1 class="display-2">Streamline, Authenticate, Activate - Effortless Service Activation </h1>
+                                    <h1 class="display-2">Streamlined Automatic Service Activation for Effortless Setup and Management </h1>
                                     <p class="lead">Unlocking convenience, one activation at a time. Our automated service activation program streamlines customer verification and request validation for seamless compliance. Let's activate together!</p>
 
                                     <a href="contact.php" class="btn btn-secondary mt-3">connect</a>
@@ -101,6 +101,86 @@ include 'cdn.php';
             </div>
             
         </section>
+        <!-- <section class="section section-xl pt-9 pb-9 section-header text-white gradient-overly-right-color" style="background-image: url('assets/img/home-banner3.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="owl-carousel owl-theme hero-content-slider custom-dot custom-dot-2" style="display: flex; align-items: center;">
+                
+                <!-- Move the dots to the left -->
+                <!-- <div class="owl-dots" style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column;">
+                    <button role="button" class="owl-dot active" style="margin-bottom: 10px;">
+                        <span style="background-color: white; border-radius: 50%; width: 10px; height: 10px; display: block;"></span>
+                    </button>
+                    <button role="button" class="owl-dot" style="margin-bottom: 10px;">
+                        <span style="background-color: white; border-radius: 50%; width: 10px; height: 10px; display: block;"></span>
+                    </button>
+                    <button role="button" class="owl-dot" style="margin-bottom: 10px;">
+                        <span style="background-color: white; border-radius: 50%; width: 10px; height: 10px; display: block;"></span>
+                    </button>
+                    <button role="button" class="owl-dot" style="margin-bottom: 10px;">
+                        <span style="background-color: white; border-radius: 50%; width: 10px; height: 10px; display: block;"></span>
+                    </button>
+                </div> -->
+
+                <!-- Content Items -->
+                <!-- <div class="item" style="margin-left: 100px;">
+                    <div class="col-md-8 col-lg-7 col-12">
+                        <div class="hero-content-wrap">
+                            <h1 class="display-2">Transform Your Business in Next 90 Days</h1>
+                            <p class="lead">Unlock Growth Potential with Oracle's BRM, OAP, and ASAP Solutions!</p>
+                            <ul class="list-unstyled tech-feature-list text-white">
+                                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Billing</strong> Revenue management</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>OBRM</strong> Access portal</li>
+                                <li class="py-1"><span class="ti-control-forward mr-2"></span><strong>Automated</strong> service activation program</li>
+                            </ul>
+                            <div class="action-btns pt-3">
+                                <a href="contact.php" class="btn btn-secondary mr-3">Connect</a>
+                                <a href="softdev.php" class="btn btn-outline-light">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="margin-left: 100px;">
+                    <div class="col-md-8 col-lg-7 col-12">
+                        <div class="hero-content-wrap position-relative z-index">
+                            <h1 class="display-2">Bill like a BOSS with Oracle BRM!</h1>
+                            <p class="lead">Empowering Communication Service Providers with Oracle BRM for seamless rating, billing, and revenue management across diverse services.</p>
+
+                            <a href="contact.php" class="btn btn-secondary mt-3">Get Start Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="margin-left: 100px;">
+                    <div class="col-md-8 col-lg-7 col-12">
+                        <div class="hero-content-wrap text-white">
+                            <h1 class="display-2">Experience seamless access with CRM's user-friendly platform</h1>
+                            <p class="lead">With CRM, easily manage customer relationships, sales pipelines, contacts, system settings, user accounts, pricing plans, promotions, and customize your interface with ease!.</p>
+
+                            <a href="contact.php" class="btn btn-secondary mt-3">Get Start Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="margin-left: 100px;">
+                    <div class="col-md-8 col-lg-7 col-12">
+                        <div class="hero-content-wrap">
+                            <h1 class="display-2">Streamlined Automatic Service Activation for Effortless Setup and Management</h1>
+                            <p class="lead">Unlocking convenience, one activation at a time. Our automated service activation program streamlines customer verification and request validation for seamless compliance. Let's activate together!</p>
+
+                            <a href="contact.php" class="btn btn-secondary mt-3">connect</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> --> -->
+
+
+
+
         <!--hero section end-->
 
         <!--promo section start-->
@@ -159,7 +239,7 @@ We take pride in offering comprehensive support & product management services, s
                             <div class="dot-shape-top position-absolute">
                             <img src="assets/img/color-shape.svg" alt="dot" class="img-fluid lozad">
                             </div>
-                            <img class="fancy-radius img-fluid lozad" src="assets/img/about-us (2).jpg" alt="modern desk">
+                            <img class="fancy-radius img-fluid lozad" src="assets/img/about-us (2).jpg" alt="modern desk" style="height: 400px; width: 100%; object-fit: contain;">
                             <div class="dot-shape position-absolute bottom-0">
                             <img src="assets/img/dot-shape.png" class="lozad" alt="dot">
                             </div>
@@ -414,7 +494,7 @@ We take pride in offering comprehensive support & product management services, s
         features section end
 
         <!--blog section start-->
-        <!--<section class="section section-lg">
+    <!-- <section class="section section-lg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -448,7 +528,7 @@ We take pride in offering comprehensive support & product management services, s
                                 <a href="business-imp-blog.php" class="position-absolute category-text small badge badge-secondary">Business Importance</a>
                             </div>
                             <div class="card-body">
-                                <!-- <div class="media d-flex align-items-center justify-content-between">
+                                 <div class="media d-flex align-items-center justify-content-between">
                                     <div class="post-group">
                                         <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="3k followers">
                                             <img class="avatar avatar-xs mr-2 img-fluid rounded-circle border border-variant-primary p-1" src="assets/img/clients/client-2.jpg" alt="admin"> <span class="small">Writer</span>
@@ -481,7 +561,7 @@ We take pride in offering comprehensive support & product management services, s
                     </div>
                 </div>
             </div>
-        </section>-->
+        </section>--->
         <!--blog section end-->
        <!-- <section class="section section-lg py-0">
   <div class="container">
@@ -497,44 +577,124 @@ We take pride in offering comprehensive support & product management services, s
       <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
         <div class="card bg-white border-variant-soft shadow-soft">
           <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-            <img src="assets/img/2p.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
+            <img src="assets\img\2px.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
             <a target="_blank" href="pandemicblog.php" class="position-absolute category-text small badge badge-secondary"></a>
           </div>
           <div class="card-body">
             <h3 class="h5 card-title mt-3"><a target="_blank" href="pandemicblog.php">Our Vision for Cutting-Edge Solutions</a></h3>
             <p class="card-text text-justify">We lead the charge in innovation, pushing boundaries to redefine possibilities. Seamlessly integrating technology into everyday life, enhancing experiences through intuitive, user-centric design. Creating a brighter future with technologies that minimize environmental impact while maximizing efficiency and effectiveness.</p>
+             <a target="_blank" href="pandemicblog.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
           </div>
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-0">
         <div class="card bg-white border-variant-soft shadow-soft">
           <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-            <img src="assets/img/3p.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
+            <img src="assets/img/3px.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
             <a href="business-imp-blog.php" class="position-absolute category-text small badge badge-secondary"></a>
           </div>
           <div class="card-body">
             <h3 class="h5 card-title mt-3"><a href="business-imp-blog.php">Nurturing Talent in a Dynamic Environment</a></h3>
             <p class="card-text text-justify">In our dynamic environment, we prioritize nurturing talent through various means. We encourage a culture of continuous learning, where employees have access to resources and opportunities for skill development. Empowerment is key - we provide autonomy and support for individuals to explore their interests and innovate.</p>
+              <a href="business-imp-blog.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
           </div>
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-4 mb-0">
         <div class="card bg-white border-variant-soft shadow-soft">
           <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-            <img src="assets/img/4p.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="resume">
-            <a href="resumeblog.php" class="position-absolute category-text small badge badge-secondary"></a>
+            <img src="assets\img\4px.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="resume">
           </div>
           <div class="card-body">
             <h3 class="h5 card-title mt-3"><a href="resumeblog.php">Fostering Collaboration and Inclusivity</a></h3>
             <p class="card-text text-justify">In our organization, fostering collaboration and inclusivity is paramount. We believe that diverse perspectives and experiences are fundamental to driving innovation and creativity. Therefore, we actively promote an inclusive culture.</p>
+            <a href="resumeblog.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>-->
+<style>
+.section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.section .col-12.col-md-6.col-lg-4 {
+  display: flex;
+}
+
+.section .card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.section .card-body {
+  flex-grow: 1;
+}
+</style>
+<!-- 
 <section class="section section-lg py-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-heading text-center mb-5">
+          <h2>Our Latest Blogs</h2>
+          <p class="lead">Dynamically pursue reliable convergence rather than 24/7 process improvements develop end-to-end customer service.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-0">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets\img\2px.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
+            <a target="_blank" href="pandemicblog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3"><a target="_blank" href="pandemicblog.php">Our Vision for Cutting-Edge Solutions</a></h3>
+            <p class="card-text text-justify">We lead the charge in innovation, pushing boundaries to redefine possibilities. Seamlessly integrating technology into everyday life, enhancing experiences through intuitive, user-centric design. Creating a brighter future with technologies that minimize environmental impact while maximizing efficiency and effectiveness.</p>
+             <a target="_blank" href="pandemicblog.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-0">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets/img/3px.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
+            <a href="business-imp-blog.php" class="position-absolute category-text small badge badge-secondary"></a>
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3"><a href="business-imp-blog.php">Nurturing Talent in a Dynamic Environment</a></h3>
+            <p class="card-text text-justify">In our dynamic environment, we prioritize nurturing talent through various means. We encourage a culture of continuous learning, where employees have access to resources and opportunities for skill development. Empowerment is key - we provide autonomy and support for individuals to explore their interests and innovate.</p>
+              <a href="business-imp-blog.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-0">
+        <div class="card bg-white border-variant-soft shadow-soft">
+          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="assets\img\4px.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="resume">
+          </div>
+          <div class="card-body">
+            <h3 class="h5 card-title mt-3"><a href="resumeblog.php">Fostering Collaboration and Inclusivity</a></h3>
+            <p class="card-text text-justify">In our organization, fostering collaboration and inclusivity is paramount. We believe that diverse perspectives and experiences are fundamental to driving innovation and creativity. Therefore, we actively promote an inclusive culture.</p>
+            <br>
+            <br>
+            
+
+            <a href="resumeblog.php" class="link-with-icon text-default font-small font-weight-bold" target="_blank">Read more <span> <i class="fas fa-angle-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<!--<section class="section section-lg py-0">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
@@ -583,7 +743,7 @@ We take pride in offering comprehensive support & product management services, s
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 
 

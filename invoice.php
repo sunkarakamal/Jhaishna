@@ -44,7 +44,7 @@ include 'cdn.php';
     <?php
     include 'header.php';
     ?>
-    <section class="" style="background: url('assets/img/slidersoft.jpg')no-repeat center center / cover">
+    <section class="" style="background: url('assets/img/header-bg-5.jpg')no-repeat center center / cover">
             <div class="section-lg bg-gradient-primary text-white section-header">
                 <div class="container">
                     <div class="row justify-content-center">
@@ -53,8 +53,8 @@ include 'cdn.php';
                                 <h1>E-Invoicing Software</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item"><a href="index.php">Services</a></li>
-                                        <li class="breadcrumb-item active"><a href="Tailered.php">E-Invoicing Software</a></li>
+                                        <li class="breadcrumb-item">Products</a></li>
+                                        <li class="breadcrumb-item active"><a href="invoice.php">E-Invoicing Software</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -70,22 +70,21 @@ include 'cdn.php';
     <div class="row">
         <div class="col-sm-6">
         <h2>E-Invoicing Software:</h2>
-  <ul>
-    <li>Automation: Streamline invoicing processes with automated generation and delivery of invoices.</li>
-    <li>Efficiency: Improve efficiency by reducing manual data entry and errors associated with traditional paper-based invoicing.</li>
-    <li>Cost Savings: Save on printing, postage, and storage costs by switching to electronic invoicing.</li>
-    <li>Speed: Expedite payment cycles with faster delivery and processing of invoices.</li>
-    <li>Accessibility: Access invoices anytime, anywhere, with cloud-based e-invoicing solutions.</li>
-    <li>Security: Enhance data security and confidentiality with encrypted electronic invoices.</li>
-    <li>Compliance: Ensure compliance with tax regulations and invoicing standards with built-in compliance features.</li>
-    <li>Integration: Seamlessly integrate e-invoicing software with accounting and ERP systems for a unified financial ecosystem.</li>
-    <li>Customization: Customize invoice templates and branding to reflect your company's identity and style.</li>
-    <li>Analytics: Gain insights into invoice status, payment trends, and customer behavior with advanced reporting and analytics tools.</li>
-  </ul>
+        <ul>
+    <li>Efficiency: Reduce manual data entry and errors in invoicing by digitalisation.</li>
+    <li>Cost Savings: Cut costs on printing, postage, and storage with e-invoicing.</li>
+    <li>Speed: Accelerate payment cycles with faster invoice delivery.</li>
+    <li>Accessibility: Access invoices anytime, anywhere with cloud solutions.</li>
+    <li>Security: Improve data security with encrypted electronic invoices.</li>
+    <li>Compliance: Meet tax and invoicing standards with built-in features.</li>
+    <li>Customization: Tailor invoice templates and branding to your company.</li>
+    <li>Analytics: Get insights into invoice status and payment trends.</li>
+    <li>Integration: Easily connect with accounting and ERP systems for a unified workflow.</li>
+</ul>
 
 </div>
-        <div class="col-sm-6 mb-3">
-    <img src="assets\img\gstin.jpg"  style="width: 500px; height: 300px; margin-left:80px;">
+        <div class="col-sm-6 mb-2">
+    <img src="assets\img\gstin.jpg"  style="width: 500px; height: 250px; margin-left:80px;">
     <section class="bg-primary text-white py-5"style= "margin-left:80px;width: 500px;">
     <div class="container">
         <h4>E-Invoicing Software</h4>
