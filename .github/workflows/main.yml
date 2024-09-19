@@ -1,7 +1,10 @@
 on:
-  push:
-    branches:
-    - develop
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: "confirmation to deploy"
+        required: true
+        default: "yes"
 jobs:
   web:
     name: Deploy web for jhaishna
