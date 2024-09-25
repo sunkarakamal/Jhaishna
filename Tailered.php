@@ -14,7 +14,7 @@ include 'cdn.php';
 
     <!--title-->
     <!--<title>Web Applications</title>-->
-    <title>Our Tailered Billing Solution</title>
+    <title>Our Tailored Billing Solution</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PD36XE5CJ"></script>
@@ -50,11 +50,11 @@ include 'cdn.php';
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>Our Tailered Billing Platform</h1>
+                                <h1>Our Tailored Billing Platform</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item">Digital Services</a></li>
-                                        <li class="breadcrumb-item active"><a href="Tailered.php">Our Tailered Billing Platform</a></li>
+                                        <li class="breadcrumb-item"><a href="index.php">Digital Services</a></li>
+                                        <li class="breadcrumb-item active"><a href="Tailered.php">Our Tailored Billing Platform</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -69,7 +69,7 @@ include 'cdn.php';
         <div class="container">
     <div class="row">
         <div class="col-sm-6">
-        <h2>Our Tailered Billing Platform :</h2>
+        <h2>Our Tailored Billing Platform :</h2>
         <ul>
   <li>Affordable Billing Solutions for optimized business performance.</li>
   <li>Custom Billing Platforms to meet unique business needs.</li>
@@ -93,7 +93,7 @@ include 'cdn.php';
     <img src="assets\img\tail.jpg"  style="width: 500px; height: 300px; margin-left:80px;">
     <section class="bg-primary text-white py-5"style= "margin-left:80px;width: 500px;">
     <div class="container">
-        <h4>Tailered Billing Platform</h4>
+        <h4>Tailored Billing Platform</h4>
         <div class="row justify-content-center">
             <div>
                 <ul>
