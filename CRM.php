@@ -14,7 +14,7 @@ include 'cdn.php';
 
     <!--title-->
     <!--<title>Web Applications</title>-->
-    <title>Tailered CRM System</title>
+    <title>Tailored CRM System</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PD36XE5CJ"></script>
@@ -50,11 +50,11 @@ include 'cdn.php';
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>Tailered CRM System</h1>
+                                <h1>Tailored CRM System</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item">Digital Services</a></li>
-                                        <li class="breadcrumb-item active"><a href="CRM.php">Tailered CRM System</a></li>
+                                        <li class="breadcrumb-item"><a href="index.php">Digital Services</a></li>
+                                        <li class="breadcrumb-item active"><a href="Tailered.php">Tailored CRM System</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -69,7 +69,7 @@ include 'cdn.php';
         <div class="container">
     <div class="row">
         <div class="col-sm-6">
-        <h2> Tailered CRM System :</h2>
+        <h2> Tailored CRM System :</h2>
   <ul>
     <li>Customization: Tailored CRM solutions to meet the specific needs and workflows of your business.</li>
     <li>Integration: Seamless integration with existing systems and software for a unified view of customer data.</li>
@@ -90,7 +90,7 @@ include 'cdn.php';
     <img src="assets\img\CRMpic.jpg"  style="width: 500px; height: 300px; margin-left:80px;">
     <section class="bg-success text-white py-5"style= "margin-left:80px;width: 500px;">
     <div class="container">
-        <h4>Tailered CRM System</h4>
+        <h4>Tailored CRM System</h4>
         <div class="row justify-content-center">
             <div>
                 <ul>

@@ -69,7 +69,7 @@
                                 </li>
                                 <li class="dropdown-submenu">
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">OBRM Access Portal (OAP) <i class="fas fa-angle-right nav-link-arrow"></i></a>-->
-                                    <a class="dropdown-item " href="Tailered.php" aria-expanded="false">Tailered Billing Platform</a>
+                                    <a class="dropdown-item " href="Tailered.php" aria-expanded="false">Tailored Billing Platform</a>
                                     <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="mob.php">Account Creation</a></li>
                                         <li><a class="dropdown-item" href="mob.php">Service Provisioning</a></li>
@@ -87,7 +87,7 @@
                                 </li>
                                 <li class="dropdown-submenu">
                                     <!--<a href="#" class="dropdown-toggle dropdown-item d-flex justify-content-between align-items-center" aria-haspopup="true" aria-expanded="false">Automated Service Activation Program <span>&nbsp;&nbsp;</span><i class="fas fa-angle-right nav-link-arrow"></i></a>-->
-                                    <a class="dropdown-item "href="CRM.php" aria-expanded="false">Tailered CRM System</a>
+                                    <a class="dropdown-item "href="CRM.php" aria-expanded="false">Tailored CRM System</a>
                                     <!--<ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="digi.php">Validations</a></li>
                                         <li><a class="dropdown-item" href="digi.php">Configurations</a></li>
@@ -160,6 +160,10 @@
                             <li class="dropdown-submenu">
                                 <a class="dropdown-item " href="invoice.php" aria-expanded="false">E-Invoicing Software</a>
                                 </li>
+                                <li class="dropdown-submenu">
+                                   
+                                   <a class="dropdown-item " href="hrms.php" aria-expanded="false">HRMS</a>
+                                   </li>
                                 <li class="dropdown-submenu">
                                 <a class="dropdown-item " aria-expanded="false">Fiber Optics</a>
                                 
