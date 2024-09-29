@@ -65,7 +65,7 @@
                     <div class="col-lg-12 col-md-12 mb-5 mb-md-0 mb-lg-0">
                         <!-- Post-->
                         <div class="post">
-                            <div class="post-preview"><img src="assets/img/blog/covid.jpg" alt="pandemic" class="img-fluid" /></div><br/>
+                            <div class="post-preview"><img src="assets\img\BRM.jpg" alt="pandemic" class="img-fluid" /></div><br/>
                             <div class="post-wrapper">
                                 <div class="post-header mt-4">
                                     <h1 class="post-title h3">Importance of BRM to your Business</h1>

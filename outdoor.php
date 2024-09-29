@@ -73,7 +73,7 @@ include 'cdn.php';
             <div class="col-lg-12">
                 <h2 class="font-weight-bold">AX5400: OUTDOOR TRI-BAND WIFI</h2>
                 <p class="lead"> AX5400: A robust outdoor tri-band Wi-Fi 6 access point delivering ultra-fast with AX5400 speeds and 
-                wide-range coverage for seamless connectivity in any environment. .</p>
+                wide-range coverage for seamless connectivity in any environment.</p>
             </div>
         </div>
         

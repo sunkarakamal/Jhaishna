@@ -14,7 +14,7 @@ include 'cdn.php';
 
     <!--title-->
     <!--<title>Web Applications</title>-->
-    <title>Tailored CRM System</title>
+    <title>Tailered CRM System</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PD36XE5CJ"></script>
@@ -53,8 +53,8 @@ include 'cdn.php';
                                 <h1>Tailored CRM System</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item"><a href="index.php">Digital Services</a></li>
-                                        <li class="breadcrumb-item active"><a href="Tailered.php">Tailored CRM System</a></li>
+                                        <li class="breadcrumb-item">Digital Services</a></li>
+                                        <li class="breadcrumb-item active"><a href="CRM.php">Tailored CRM System</a></li>
                                     </ol>
                                 </nav>
                             </div>
