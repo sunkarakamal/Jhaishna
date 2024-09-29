@@ -50,11 +50,11 @@ include 'cdn.php';
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>OTT – Smart Android IPTV Box</h1>
+                                <h1>OUTDOOR WIFI</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
                                         <li class="breadcrumb-item">Products</a></li>
-                                        <li class="breadcrumb-item active"><a href="ott.php">OTT – Smart Android IPTV Box</a></li>
+                                        <li class="breadcrumb-item active"><a href="ott.php">OUTDOOR WIFI</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -117,15 +117,16 @@ include 'cdn.php';
         <!-- Content and Image Side by Side -->
 <div class="row align-items-start mb-5">
     <!-- Left Side: Text and Table -->
-    <div class="col-md-6 ">
+    <div class="col-md-6">
         <!-- Matter -->
         <div class="text-left">
-            <h2 class="font-weight-bold">P96: IPTV OTT BOX</h2>
-            <p class="lead">A versatile IPTV OTT box offering seamless streaming of live TV and on-demand content with high-definition support.</p>
+            <h2 class="font-weight-bold">AX5400: OUTDOOR TRI-BAND WIFI</h2>
+            <p class="lead">AX5400: A robust outdoor tri-band Wi-Fi 6 access point delivering ultra-fast with AX5400 speeds and 
+            wide-range coverage for seamless connectivity in any environment.</p>
         </div>
 
         <!-- Specifications Table -->
-        <div class="mt-5">
+        <div class="mt-4">
             <h5 class="font-weight-bold text-left">Specifications:</h5>
             <table class="table table-bordered" style="width: 100%;">
                 <thead>
@@ -138,13 +139,14 @@ include 'cdn.php';
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>P96</td>
-                        <td>OTT</td>
-                        <td>1GB</td>
-                        <td>8GB</td>
-                        <td>1*HDMI, 1*AV, 1*FE, 2*USB2.0</td>
-                    </tr>
+                <tr>
+                            <td>AX5400</td>
+                            <td>OUTDOOR</td>
+                            <td>4GB</td>
+                            <td>1GB</td>
+                            <td>2.4G & 5.2G & 5.8G WiFi 
+                            Wi-Fi 802.11ax </td>
+                        </tr>
                 </tbody>
             </table>
         </div>
@@ -152,7 +154,7 @@ include 'cdn.php';
 
     <!-- Right Side: Image -->
     <div class="col-md-6">
-        <img src="assets/img/ott.jpg" class="img-fluid rounded shadow" style="width: 100%; height: 380px;" alt="OTT Box Image">
+        <img src="assets/img/outdoor.jpg" class="img-fluid rounded shadow" style="width: 100%; height: 380px;" alt="OTT Box Image">
     </div>
 </div>
 
@@ -205,19 +207,20 @@ include 'cdn.php';
         <!-- Content and Image Side by Side -->
 <div class="row align-items-start mb-5">
 
-<div class="col-md-6 ">
-        <img src="assets/img/ott2.jpg" class="img-fluid rounded shadow" style="width: 100%; height: 400px;" alt="OTT Box Image">
+<div class="col-md-6">
+        <img src="assets/img/outdoor2.jpg" class="img-fluid rounded shadow" style="width: 100%; height: 400px;" alt="OTT Box Image">
     </div>
     <!-- Left Side: Text and Table -->
-    <div class="col-md-6 mb-2">
+    <div class="col-md-6">
         <!-- Matter -->
         <div class="text-left">
-            <h2 class="font-weight-bold">P97: IPTV OTT BOX</h2>
-            <p class="lead">P97: A versatile IPTV OTT box offering seamless streaming of live TV and on-demand content with high-definition support.</p>
+            <h2 class="font-weight-bold">AX3000: IPTV OUTDOOR DUAL-BAND WIFI</h2>
+            <p class="lead">A robust outdoor dual-band Wi-Fi 6 access point delivering super-fast AX3000 speeds and wide-
+            range coverage for seamless connectivity in any environment.</p>
         </div>
 
         <!-- Specifications Table -->
-        <div class="mt-5">
+        <div class="mt-4">
             <h5 class="font-weight-bold text-left">Specifications:</h5>
             <table class="table table-bordered" style="width: 100%;">
                 <thead>
@@ -230,13 +233,14 @@ include 'cdn.php';
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>P97</td>
-                        <td>OTT</td>
-                        <td>2GB</td>
-                        <td>16GB</td>
-                        <td>1*HDMI, 1*AV, 1*FE, 1*USB2.0, 1*USB OTG</td>
-                    </tr>
+                <tr>
+                            <td>AX3000</td>
+                            <td>OUTDOOR</td>
+                            <td>512MB</td>
+                            <td>128MB</td>
+                            <td>2.4G & 5G WiFi 
+                            Wi-Fi 802.11ax</td>
+                        </tr>
                 </tbody>
             </table>
         </div>

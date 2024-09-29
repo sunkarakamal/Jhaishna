@@ -128,6 +128,8 @@
                                   
                                         <a class="dropdown-item" href="Transform.php" aria-expanded="false">Digitial Bussiness Transformation</a>
                                         </li>
+
+                                    
                                 <!-- <li class="dropdown-submenu">
                                 <a class="dropdown-item " href="MES.php" aria-expanded="false">MES</a>
                                 </li> -->
@@ -160,20 +162,21 @@
                             <li class="dropdown-submenu">
                                 <a class="dropdown-item " href="invoice.php" aria-expanded="false">E-Invoicing Software</a>
                                 </li>
+
                                 <li class="dropdown-submenu">
                                    
                                    <a class="dropdown-item " href="hrms.php" aria-expanded="false">HRMS</a>
                                    </li>
                                 <li class="dropdown-submenu">
-                                <a class="dropdown-item " aria-expanded="false">Fiber Optics</a>
+                                <a class="dropdown-item " href="optics.php" aria-expanded="false">Fiber Optics</a>
                                 
-                                <ul class="dropdown-menu">
+                              <!-- <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="onu.php">Triple Play ONU+OTT</a></li>
                                         <li><a class="dropdown-item" href="wifi.php">ONU+WIFI</a></li>
                                         <li><a class="dropdown-item" href="ott.php">OTT-Smart Android IPTV Box</a></li>
                                         <li><a class="dropdown-item" href="outdoor.php">Outdoor WIFI</a></li>
                                         
-                                    </ul>
+                                    </ul>-->
                                     </li>
                                
                              </ul>
@@ -185,7 +188,7 @@
                             <a class="nav-link" target="_blank" href="blogdetails.php">Blog</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="mes2.php">Blog</a>
+                            <a class="nav-link" target="_blank" href="blogdetails.php">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about-us.php">About Us</a>

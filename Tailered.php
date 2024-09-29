@@ -14,7 +14,7 @@ include 'cdn.php';
 
     <!--title-->
     <!--<title>Web Applications</title>-->
-    <title>Our Tailored Billing Solution</title>
+    <title>Our Tailered Billing Solution</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PD36XE5CJ"></script>
@@ -53,7 +53,7 @@ include 'cdn.php';
                                 <h1>Our Tailored Billing Platform</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item"><a href="index.php">Digital Services</a></li>
+                                        <li class="breadcrumb-item">Digital Services</a></li>
                                         <li class="breadcrumb-item active"><a href="Tailered.php">Our Tailored Billing Platform</a></li>
                                     </ol>
                                 </nav>

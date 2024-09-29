@@ -14,7 +14,7 @@ include 'cdn.php';
 
     <!--title-->
     <!--<title>Web Applications</title>-->
-    <title>Loan Management System</title>
+    <title>E-Invoicing Software</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PD36XE5CJ"></script>
@@ -50,11 +50,11 @@ include 'cdn.php';
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>Loan Management System</h1>
+                                <h1>HRMS</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
                                         <li class="breadcrumb-item">Products</a></li>
-                                        <li class="breadcrumb-item active"><a href="lms.php">Loan Management System</a></li>
+                                        <li class="breadcrumb-item active"><a href="HRMS.php">HRMS</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -69,34 +69,28 @@ include 'cdn.php';
         <div class="container">
     <div class="row">
         <div class="col-sm-6">
-        <h2> Loan Management System:</h2>
+        <h2>Human Resource Management System</h2>
         <ul>
-    <li>Automated Loan Processing: Automate loan application and approval processes.</li>
-    <li>Integration: Connect seamlessly with banking systems and credit agencies.</li>
-    <li>Real-Time Tracking: Monitor loan status, payments, and interest calculations instantly.</li>
-    <li>Loan Optimization: Adjust loan terms and offers based on customer profiles and analytics.</li> 
-    <li>Compliance Tracking: Ensure compliance with regulations and financial policies.</li>
-    <li>Personalized Offers: Provide tailored loan products based on customer data.</li>
-    <li>Reporting: Generate reports on loan performance, defaults, and profitability.</li>
-    <li>Scalability: Manage growing loan portfolios efficiently as business expands.</li>
+    <li>Employee Information Management: Centralized database for employee records.</li>
+    <li>Recruitment and Onboarding: Tools for job postings, applicant tracking, and onboarding processes.</li>
+    <li>Time and Attendance Tracking: Features for tracking employee hours, leaves, and attendance.</li>
+    <li>Payroll Management: Automates salary calculations, tax deductions, and payments.</li>
+    <li>Performance Management: Tools for setting goals, conducting evaluations, and providing feedback.</li>
+    <li>Learning and Development: Platforms for training programs and skill development.</li>
+    <li>Employee Self-Service: Portals for employees to access information and manage their details.</li>
+    <li>Reporting and Analytics: Insights into HR metrics, such as turnover rates and performance trends.</li>
 </ul>
-
-
 
 </div>
-        <div class="col-sm-6 mb-1">
-    <img src="assets\img\platform.jpg"  style="width: 500px; height: 250px; margin-left:80px;">
+        <div class="col-sm-6 mb-2">
+    <img src="assets\img\4px.jpg"  style="width: 500px; height: 250px; margin-left:80px;">
     <section class="bg-primary text-white py-5"style= "margin-left:80px;width: 500px;">
     <div class="container">
-        <h4>Loan Management System</h4>
+        <h4>HRMS</h4>
         <div class="row justify-content-center">
-            <div>
-            <ul>
-    <li>Streamlined loan processes through automation and optimization.</li>
-    <li>Real-time tracking and analytics for better decision-making and loan management.</li>
-</ul>
-
-            </div>
+        <div> <ul> <li>Automated generation and delivery of employee records, payslips, and performance reports.</li>
+         <li>Integration with recruitment and onboarding systems for streamlined HR processes.</li> </ul>
+         </div>
         </div>
     </div>
 </div>
