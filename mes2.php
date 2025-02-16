@@ -60,8 +60,22 @@
         </section>
         <!--page header section end-->
 
+	<section >
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-8 mb-0 mb-md-0 mb-lg-0 mx-auto mt-0">
+                <div class="post">
+                    <div class="post-header mt-0">
+                        <h1 class="post-title h3">Transform Your Manufacturing: The Power of Manufacturing Execution Systems</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
         <!--blog section start-->
-        <section class="section section-lg ">
+        <section class="mt-4 mb-4 ">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9 col-md-8 mb-5 mb-md-0 mb-lg-0 mx-auto">
@@ -71,7 +85,7 @@
                             <div class="post-preview"><img src="assets\img\mes.jpg" alt="Full-stack-png" class="img-fluid" /></div>
                             <div class="post-wrapper">
                                 <div class="post-header mt-4">
-                                    <h1 class="post-title h3">"Transform Your Manufacturing: The Power of Manufacturing Execution Systems"</h1>
+                                    <!-- <h1 class="post-title h3">"Transform Your Manufacturing: The Power of Manufacturing Execution Systems"</h1> -->
                                     
                                 </div>
                                 <div class="post-content">

@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--favicon icon-->
-    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="assets/img/jhaishna_logo2.png" type="image/png" sizes="16X16">
 
     <!--title-->
     <title>Internship</title>

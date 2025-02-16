@@ -10,16 +10,416 @@ include 'cdn.php';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--favicon icon-->
-    <link rel="icon" class="lozad" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+    <!--<link rel="icon" class="lozad" href="assets/img/favicon.png" type="image/png" sizes="16x16">-->
+    <!-- favicon icon -->
+<link rel="icon" class="lozad" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+
+
 
     <!--title-->
     <title>Jhaishna</title>
 
     <!-- VECTOR CODE -->
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.client-slider {
+  width: 100%;
+  overflow: hidden; 
+  position: relative;
+  
+  padding: 20px 0;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+  min-width: 25%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  width: 150px; 
+  height: 100px;
+  object-fit: contain;
+  filter: none;
+  transition: filter 0.3s ease-in-out;
+}
+
+.slide img:hover {
+  filter: none;
+}
+
+
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.slider-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 10;
+}
+
+
+
+
+
+/* Popup Container */
+.award-container {
+  position: fixed;
+  bottom: 5vh;  /* 5% of the viewport height */
+  right: 5vw;   /* 5% of the viewport width */
+  width: 30vw;  /* 30% of the viewport width for responsiveness */
+  max-width: 430px;  /* Maximum width */
+  min-width: 250px;  /* Minimum width */
+  height: 33vh; /* 1/3rd of the viewport height */
+  max-height: 300px; /* Optional max height */
+  /* background: url('assets/img/5.png') center/cover no-repeat; Clear background image */
+  box-shadow: 
+    0 0 10px 2px rgba(245, 158, 11, 0.5),
+    inset 0 0 10px rgba(245, 158, 11, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1000;
+  padding: 15px;
+  text-align: center;
+  transform: translateY(100px);
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+}
+
+
+/* Pseudo-element for background */
+.award-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('assets/img/5.png') center/cover no-repeat; /* Set background image */
+  opacity: 0.85; /* Adjust the opacity to control the transparency of the image */
+  z-index: -1; /* Keep the image behind the content */
+}
+
+/* Adjusted for Optional Overlay (if needed) */
+/* .award-container {
+  background: url('assets/img/5.png') center/cover no-repeat;
+  opacity: 0.5;
+  /* Uncomment this line if you need a gradient overlay for better text visibility:
+     background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
+     url('assets/img/1.png') center/cover no-repeat;
+  */
+/*} */
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  .award-container {
+    width: 40vw;  /* 40% of the viewport width for tablet-sized screens */
+    max-width: 400px;  /* Max width for tablets */
+    height: 30vh; /* Slightly reduced height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .award-container {
+    width: 50vw;  /* 50% of the viewport width for mobile screens */
+    max-width: 350px;  /* Max width for mobile */
+    height: 25vh; /* Further reduced height for mobile */
+  }
+}
+
+
+
+
+
+
+/* Visible state */
+.award-container.visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+/* Dismiss button */
+.dismiss-btn {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  color: #888;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.dismiss-btn:hover {
+  color: #333;
+}
+
+/* Content Styling */
+.award-body .award-image {
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.award-body h3 {
+  font-size: 1rem;
+  color: #333;
+  margin: 4px 0;
+  position: absolute; /* Position button relative to .award-body */
+  bottom: 71px; /* 20px from the bottom of the popup */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+}
+
+.award-body p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0px 0;
+  position: absolute; /* Position button relative to .award-body */
+  bottom: 30px; /* 20px from the bottom of the popup */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+}
+
+/* .award-body a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 6px 12px;
+  border-radius: 3px;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+}
+
+.award-body a:hover {
+  background-color: #0056b3;
+} */
+/* Button Styling */
+.award-body a {
+  display: inline-block;
+  text-decoration: none;
+  color: #FF0000;
+  background-color:#f5d742;
+  padding: 3px 6px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+  position: absolute; /* Position button relative to .award-body */
+  bottom: 7px; /* 20px from the bottom of the popup */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+}
+
+.award-body a:hover {
+  background-color:#ffd700;
+}
+
+
+/* Background Video */
+/* .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+} */
+
+
+.background-gif {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+/* Semi-Transparent Overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* Darker black for better text visibility */
+    z-index: 2;
+}
+
+/* Hero Content Styles */
+.hero-content-wrap {
+    position: relative;
+    z-index: 3; /* Ensure it's above the overlay */
+    color: #ffffff; /* Ensure white text for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+}
+
+.hero-content-wrap h1 {
+    font-size: 3rem; /* Adjust for better visibility */
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-content-wrap p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero-content-wrap ul {
+    padding-left: 20px;
+}
+
+.hero-content-wrap li {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.action-btns .btn {
+    font-size: 1rem;
+    padding: 12px 25px;
+}
+
+/* Owl Carousel Adjustments */
+.owl-carousel .item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+
+ .gradient-overly-right-color {
+    background: none !important; /* Remove any background or gradient */
+    background-image: none !important;/* Remove any gradient or image */
+}
+
+.gradient-overly-right-color::before,
+.gradient-overly-right-color::after {
+    content: none;
+    background: none;
+}
+
+
+.hero-content-wrap {
+  position: relative;
+  z-index: 2;                /* Ensure the content stays above the video */
+}
+
+.hero-content-wrap h1, .hero-content-wrap p, .hero-content-wrap .action-btns {
+  color: #fff;               /* Ensure the text is readable on the video */
+  z-index: 3;                /* Ensure text and buttons stay above the video */
+}
+
+/* Optional: Adjust padding for smaller screens */
+@media (max-width: 768px) {
+  .hero-content-wrap {
+    padding: 15px;           /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content-wrap {
+    padding: 10px;           /* Further adjustment for mobile devices */
+  }
+}
+
+/* Falling numbers container */
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white; /* White background */
+  z-index: 9999;
+  overflow: hidden;
+  transition: background-color 0.5s ease-in-out; /* Smooth background fade-out effect */
+}
+
+/* Falling number styling */
+.matrix-number {
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px; /* Slightly larger font for visibility */
+  white-space: nowrap;
+  animation: fall linear infinite;
+  transform: rotate(0deg);
+  color: rgba(0, 0, 0, 0); /* Light gray for lighter numbers */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0); /* Softer shadow for lighter effect */
+  transition: background-color 0.5s ease-in-out; /* Smooth fading transition */
+}
+
+/* Falling animation */
+@keyframes fall {
+  0% {
+    transform: translateY(-10%) rotate(var(--tilt-angle));
+    opacity: 1; /* Fully visible at the start */
+  }
+  70% {
+    transform: translateY(70vh) rotate(var(--tilt-angle));
+    opacity: 0.7; /* Slightly fade out */
+  }
+  100% {
+    transform: translateY(100vh) rotate(var(--tilt-angle));
+    opacity: 0; /* Fully fade out */
+  }
+}
+
+/* Hidden class to hide the loading screen */
+.hidden {
+  display: none;
+}
+
+
+
+
+
+</style>
 
 </head>
 
 <body>
+
+<!-- Loading screen for the falling numbers effect -->
+<div class="loading-screen" id="loadingScreen"></div>
+
     <!--preloader start-->
     <div id="preloader">
         <div class="loader1">
@@ -43,7 +443,21 @@ include 'cdn.php';
 
     <div class="main">
         <!--hero section start-->
-        <section class="section section-xl pt-9 pb-9 section-header text-white gradient-overly-right-color" style="background-image: url('assets/img/home-banner3.jpg')">
+        <!-- <section class="section section-xl pt-9 pb-9 section-header text-white gradient-overly-right-color" style="background-image: url('assets/img/home-banner3.jpg')"> -->
+
+        <section class="section section-xl pt-9 pb-9 section-header text-white gradient-overly-right-color" style="position: relative; overflow: hidden;">
+    <!-- Background Video -->
+    <!-- <video autoplay muted loop id="background-video" class="background-video" preload="auto">
+    <source src="assets/img/homepage demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> -->
+
+<img src="assets/img/homescreen.gif" alt="Background GIF" class="background-gif" preload="auto">
+
+     <!-- Semi-Transparent 
+      Overlay -->
+     <div class="overlay"></div>
+
             <div class="container">
                 <div class="row">
                     <div class="owl-carousel owl-theme hero-content-slider custom-dot custom-dot-2">
@@ -67,20 +481,22 @@ include 'cdn.php';
                         <div class="item">
                             <div class="col-md-8 col-lg-7 col-12">
                                 <div class="hero-content-wrap position-relative z-index">
-                                    <h1 class="display-2">Bill like a BOSS with Oracle BRM!</h1>
-                                    <p class="lead">Empowering Communication Service Providers with Oracle BRM for seamless rating, billing, and revenue management across diverse services.</p>
+                                    <h1 class="display-2">Optimize Billing and Revenue Workflows to Exemplary Standards</h1>
+                                    <p class="lead">Oracle BRM empowers smooth & efficient rating for Billing and Revenue Management across diverse services</p>
+                                    <p class="lead">Simplify your operations, enhance customer satisfaction and focus on growing your business with confidence</p>
 
-                                    <a href="contact.php" class="btn btn-secondary mt-3">Get Start Now</a>
+
+                                    <a href="softdev.php" class="btn btn-secondary mt-3">Learn More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
                             <div class="col-md-8 col-lg-7 col-12">
                                 <div class="hero-content-wrap text-white">
-                                    <h1 class="display-2">Experience seamless access with CRM's user-friendly platform</h1>
-                                    <p class="lead">With CRM, easily manage customer relationships, sales pipelines, contacts, system settings, user accounts, pricing plans, promotions, and customize your interface with ease!.</p>
+                                    <h1 class="display-2"> Effortlessly Manage Relations with Our Innovative CRM Solutions</h1>
+                                    <p class="lead"> Easily manage customer relationships, sales pipelines, user accounts, pricing plans, promotions & customize your interface with ease </p>
 
-                                    <a href="contact.php" class="btn btn-secondary mt-3">Get Start Now</a>
+                                    <a href="CRM.php" class="btn btn-secondary mt-3">Learn More</a>
                                 
                                 </div>
                                 
@@ -89,10 +505,10 @@ include 'cdn.php';
                         <div class="item">
                             <div class="col-md-8 col-lg-7 col-12">
                                 <div class="hero-content-wrap">
-                                    <h1 class="display-2">Streamlined Automatic Service Activation for Effortless Setup and Management </h1>
-                                    <p class="lead">Unlocking convenience, one activation at a time. Our automated service activation program streamlines customer verification and request validation for seamless compliance. Let's activate together!</p>
+                                    <h1 class="display-2">Streamline Automatic Service Activation for Effortless Setup and Management </h1>
+                                    <p class="lead">Unlock Efficiency & Effectiveness at once.Automated service activation program efficiently streamlines customer verification and request validation for seamless compliance </p>
 
-                                    <a href="contact.php" class="btn btn-secondary mt-3">connect</a>
+                                    <a href="cloud.php" class="btn btn-secondary mt-3">Learn More</a>
                                 
                                 </div>
                                 </div>
@@ -176,7 +592,7 @@ include 'cdn.php';
             </div>
         </div>
     </div>
-</section> --> -->
+</section> --> 
 
 
 
@@ -228,6 +644,78 @@ We take pride in offering comprehensive support & product management services, s
                 </div>
             </div>
         </section>
+
+        <br>
+        <br>
+        <section class="client-slider">
+    <div class="slider-wrapper" id="slider">
+      <!-- Duplicate slides for seamless looping -->
+      <div class="slide"><img src="assets/img/HKT.jpg" alt="HKT"></div>
+    <div class="slide"><img src="assets/img/oracle.jpg" alt="oracle"></div>
+    <div class="slide"><img src="assets/img/hongkong.jpeg" alt="HKBN"></div>
+    <div class="slide"><img src="assets/img/jio.jpg" alt="jio"></div>
+    <div class="slide"><img src="assets/img/hathway.jpg" alt="hathway"></div>
+    <div class="slide"><img src="assets/img/digi.jpg" alt="digi"></div>
+    <div class="slide"><img src="assets/img/equi.jpg" alt="equi"></div>
+    <div class="slide"><img src="assets/img/rackspace.jpg" alt="rackspace"></div>
+      <!-- Duplicate slides for seamless looping -->
+      <div class="slide"><img src="assets/img/HKT.jpg" alt="HKT"></div>
+    <div class="slide"><img src="assets/img/oracle.jpg" alt="oracle"></div>
+    <div class="slide"><img src="assets/img/hongkong.jpeg" alt="HKBN"></div>
+    <div class="slide"><img src="assets/img/jio.jpg" alt="jio"></div>
+    </div>
+    <div class="slider-controls">
+      <button class="slider-btn" id="prevBtn">&#10094;</button>
+      <button class="slider-btn" id="nextBtn">&#10095;</button>
+    </div>
+  </section>
+
+  <script>
+    const slider = document.getElementById('slider');
+    const slides = document.querySelectorAll('.slide');
+    const slideWidth = slider.offsetWidth / 4; // Divide slider width by 4 to show 4 logos
+    let currentPosition = 0;
+
+    // Move the slider left to right automatically
+    const moveSliderAuto = () => {
+      currentPosition += slideWidth;
+      slider.style.transition = 'transform 0.5s ease-in-out';
+      slider.style.transform = `translateX(-${currentPosition}px)`;
+
+      // Reset to the starting position for seamless looping
+      if (currentPosition >= slideWidth * (slides.length - 4)) {
+        setTimeout(() => {
+          slider.style.transition = 'none';
+          currentPosition = 0;
+          slider.style.transform = `translateX(-${currentPosition}px)`;
+        }, 500);
+      }
+    };
+
+    // Move slider manually
+    const moveSliderManual = (direction) => {
+      if (direction === 'next') {
+        currentPosition += slideWidth;
+        if (currentPosition >= slideWidth * (slides.length - 4)) {
+          currentPosition = 0;
+        }
+      } else if (direction === 'prev') {
+        currentPosition -= slideWidth;
+        if (currentPosition < 0) {
+          currentPosition = slideWidth * (slides.length - 4);
+        }
+      }
+      slider.style.transition = 'transform 0.5s ease-in-out';
+      slider.style.transform = `translateX(-${currentPosition}px)`;
+    };
+
+    // Buttons for manual control
+    document.getElementById('nextBtn').addEventListener('click', () => moveSliderManual('next'));
+    document.getElementById('prevBtn').addEventListener('click', () => moveSliderManual('prev'));
+
+    // Auto-slide every 2 seconds
+    setInterval(moveSliderAuto, 2000);
+  </script>
         <!--promo section end-->
 
         <!--about section start-->
@@ -308,6 +796,8 @@ We take pride in offering comprehensive support & product management services, s
                 </div>
             </div>
         </section>
+
+      
         <!--about section end-->
 
         <!--cta section start-->
@@ -394,7 +884,7 @@ We take pride in offering comprehensive support & product management services, s
             </div>
         </section>
         <!--work-process section end-->
-        <section class="py-0 text-white lozad">
+        <!--<section class="py-0 text-white lozad">
 <div>
 <video autoplay muted loop class="video-background" style="margin: left 10px;"width=100% >
         <source src="assets\img\video.mp4" type="video/mp4">
@@ -403,9 +893,12 @@ We take pride in offering comprehensive support & product management services, s
                 <div class="row" style="margin: left 10px;">
 </div>
                 <!--<video autoplay muted loop class="video-background" style="margin: left 10px;">
-        <source src="Clients (1).mp4" type="video/mp4">-->
+        <source src="Clients (1).mp4" type="video/mp4">
 </div>
-</section>
+</section>-->
+
+
+
         <!--features section start-->
         <!--<section class="section section-lg bg-soft ">
             <div class="container">
@@ -1016,26 +1509,100 @@ We take pride in offering comprehensive support & product management services, s
 
 
 
-        <!--cta section start-->
-        <section class="section section-sm bg-soft py-0">
+  <section class="section section-lg py-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-heading text-center mb-5">
+          <h2>Our Latest Blogs</h2>
+          <!-- <p class="lead">Dynamically pursue reliable convergence rather than 24/7 process improvements develop end-to-end customer service.</p> -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+
+    <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
+  <a  href="achievements.php" style="text-decoration: none; color: inherit;">
+    <div class="card bg-white border-variant-soft shadow-soft">
+      <div class="blog-img position-relative" style="width: 100%; height: 200px; ">
+        <img src="assets/img/achieve30.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit:content;">
+        <span class="position-absolute category-text small badge badge-secondary"></span>
+      </div>
+      <div class="card-body">
+        <h3 class="h5 card-title mt-3">Jhaishna: Emerging Leader in India's IT Sector </h3>
+        <p class="card-text text">Jhaishna Technologies win the fastest growing Indian Company Leadership Award. </p>
+      </div>
+    </div>
+  </a>
+</div>
+      
+    <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs" >
+  <a target="_blank" href="mes2.php" style="text-decoration: none; color: inherit;">
+    <div class="card bg-white border-variant-soft shadow-soft">
+      <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+        <img src="assets/img/mes.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
+        <span class="position-absolute category-text small badge badge-secondary"></span>
+      </div>
+      <div class="card-body">
+        <h3 class="h5 card-title mt-3">The Power of MES </h3>
+        <p class="card-text text">Optimize production processes with our MES for real-time monitoring and control. </p>
+      </div>
+    </div>
+  </a>
+</div>
+   
+
+  
+      <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
+  <a target="_blank" href="business-imp-blog.php" style="text-decoration: none; color: inherit;">
+    <div class="card bg-white border-variant-soft shadow-soft">
+      <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
+        <img src="assets/img/cutting.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
+        <span class="position-absolute category-text small badge badge-secondary"></span>
+      </div>
+      <div class="card-body">
+        <h3 class="h5 card-title mt-3">Our Vision </h3>
+        <p class="card-text text">We lead the charge in innovation, pushing boundaries to redefine possibilities. </p>
+      </div>
+    </div>
+  </a>
+</div>
+
+
+
+    
+      
+
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section section-sm bg-soft py-0">
   <div class="section section-sm bg-gradient-primary">
     <div class="container">
-
-      <div class="row justify-content-around align-items-center">
-        <div class="col-md-7">
-          <div class="subscribe-content">
-            <h3><strong>Ready to Discuss Your Project?</strong></h3>
+      <div class="row justify-content-around align-items-center" style="display: flex; align-items: stretch;">
+        <div class="col-md-7 d-flex align-items-center">
+          <div class="subscribe-content w-100 text-center" style="display: flex; flex-direction: column; justify-content: center;">
+            <h3 style="font-size: 2rem; padding: 10px 0; margin: 0; min-height: 60px; display: flex; align-items: center; justify-content: center;">
+              <strong>Ready to Pursue Excellence?</strong>
+            </h3>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="action-btn text-lg-right text-sm-left" style="margin-right:20px;">
-            <a href="contact.php" class="btn btn-primary">Get a Quote</a>
+        <div class="col-md-4 d-flex align-items-center">
+          <div class="action-btn text-lg-right text-sm-left w-100" style="display: flex; align-items: center; justify-content: center; margin-right: 20px;">
+            <a href="contact.php" class="btn btn-primary" style="min-height: 60px; display: flex; align-items: center; justify-content: center;">
+              Discuss Projects
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
         <!--cta section end-->
     </div>
@@ -1051,6 +1618,189 @@ We take pride in offering comprehensive support & product management services, s
     </button>
     <!--scroll bottom to top button end-->
     <!--endbuild-->
+
+<!-- Floating Award Popup -->
+<div class="award-container hidden" id="award-container">
+  <!-- Dismiss Button -->
+  <button class="dismiss-btn" id="dismiss-btn">&times;</button>
+  <!-- Popup Content -->
+  <div class="award-body">
+    
+    <!-- Image at the top -->
+    <!-- <img src="assets/img/edit5.jpg" alt="Achievement Image" class="award-image"> -->
+    <!-- Heading below the image -->
+    <h3>Privileged To Acheive</h3>
+    <!-- Recognized text -->
+    <p>Fastest Growing Indian Company Leader</p>
+    <!-- Link Button -->
+    <a href="achievements.php" target="_blank">Read More</a>
+  </div>
+
+  <!-- Robot Inside the Popup -->
+  <div class="robot">
+    <!-- Robot Head -->
+    <div class="robot-head">
+      <div class="robot-face">
+        <div class="robot-eye"></div>
+        <div class="robot-eye"></div>
+      </div>
+    </div>
+    <!-- Robot Body -->
+    <div class="robot-body"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <script>
+  // JavaScript to handle dismiss button
+  const dismissBtn = document.getElementById('dismiss-btn');
+  const awardContainer = document.getElementById('award-container');
+
+  dismissBtn.addEventListener('click', () => {
+    awardContainer.classList.add('hidden');
+  });
+</script> -->
+
+
+<!-- <script>
+  // JavaScript to handle dismiss button
+  const dismissBtn = document.getElementById('dismiss-btn');
+  const awardContainer = document.getElementById('award-container');
+
+  dismissBtn.addEventListener('click', () => {
+    awardContainer.classList.add('hidden');
+  });
+</script> -->
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+  const awardContainer = document.getElementById("award-container");
+
+  setTimeout(() => {
+    if (awardContainer) {
+      awardContainer.classList.remove("hidden");
+      awardContainer.classList.add("visible");
+    }
+  }, 2000);
+
+  const dismissButton = document.getElementById("dismiss-btn");
+  if (dismissButton) {
+    dismissButton.addEventListener("click", () => {
+      awardContainer.classList.remove("visible");
+      awardContainer.classList.add("hidden");
+    });
+  }
+});
+
+
+</script>
+
+
+
+
+<script>
+// Get the loading screen container
+const loadingScreen = document.getElementById('loadingScreen');
+
+// Track the current phase of the animation
+let isGreenPhase = false; // Initially false, blue/red phase
+
+// Function to generate random 0 or 1 falling
+function createFallingNumber() {
+  const number = document.createElement('span');
+  number.classList.add('matrix-number');
+
+  // Set random 0 or 1
+  number.textContent = Math.random() > 0.9 ? '0' : '1';
+
+  // Set random horizontal position
+  number.style.left = Math.random() * 100 + 'vw';
+
+  // Set random animation duration (slower, between 3 to 4 seconds now)
+  const duration = Math.random() * 1 + 3; // Between 3 and 4 seconds (slower)
+  number.style.animationDuration = duration + 's';
+
+  // Set random tilt angle
+  const tiltAngle = Math.random() > 0.5 ? `${Math.random() * 10 - 5}deg` : '0deg'; // Between -5 and 5 degrees
+  number.style.setProperty('--tilt-angle', tiltAngle);
+
+  // Set the color based on the current phase (only green after green phase)
+  if (isGreenPhase) {
+    number.style.color = '#00ff00'; // Bright green
+    number.style.fontSize = '24px'; // Increase font size slightly
+  } else {
+    // Initially, set random color (blue or red) until the green phase starts
+    const randomColor = Math.random() > 0.5 ? 'blue' : 'red';
+    number.style.color = randomColor;
+  }
+
+  // Append the number to the loading screen
+  loadingScreen.appendChild(number);
+
+  // Remove the number after it finishes animation
+  setTimeout(() => {
+    number.remove();
+  }, 4000); // Numbers stay for up to 4 seconds now (slower removal)
+}
+
+// Generate falling numbers at slower intervals (every 100ms now)
+const interval = setInterval(() => {
+  createFallingNumber();
+}, 100); // Generate a new number every 100ms (slower)
+
+
+// Transition to green phase and increase font size after 2 seconds
+setTimeout(() => {
+  isGreenPhase = true; // All new numbers will be green
+  document.querySelectorAll('.matrix-number').forEach(number => {
+    number.style.color = '#00ff00'; // Bright green
+    number.style.fontSize = '24px'; // Increase font size slightly
+  });
+}, 2000); // Transition to green phase after 2 seconds
+
+// Fade background color to transparent after 2 seconds
+setTimeout(() => {
+  loadingScreen.style.transition = 'background-color 0.5s ease-in-out'; // Fading effect now much faster
+  loadingScreen.style.backgroundColor = 'transparent';
+}, 2000); // Fade out after 2 seconds
+
+// Hide the loading screen and stop number generation after 4 seconds
+setTimeout(() => {
+  clearInterval(interval); // Stop generating numbers
+  loadingScreen.classList.add('hidden'); // Hide loading screen completely
+}, 4000); // Hide after everything completes
+
+</script>
+
+<script>
+   const gif = document.querySelector('.background-gif');
+
+// Make the GIF visible once it's loaded
+gif.addEventListener('load', function() {
+    gif.style.visibility = 'visible';
+});
+
+// Optional: Error handling if the GIF fails to load
+gif.addEventListener('error', function() {
+    console.log('GIF failed to load.');
+    // You can replace the source with a fallback image if needed
+    gif.src = 'assets/img/homescreen.gif';
+});
+
+</script>
+
+
+
+
+
+
+
 </body>
 
 </html>

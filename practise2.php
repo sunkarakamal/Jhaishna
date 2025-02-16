@@ -50,11 +50,11 @@ include 'cdn.php';
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>ONU WIFI</h1>
+                                <h1>ONU+WIFI</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item">Products</a></li>
-                                        <li class="breadcrumb-item active"><a href="ott.php">ONU WIFI</a></li>
+                                        <li class="breadcrumb-item">Fiber Optics</a></li>
+                                        <li class="breadcrumb-item active"><a href="ott.php">ONU+WIFI</a></li>
                                     </ol>
                                 </nav>
                             </div>
@@ -149,7 +149,7 @@ include 'cdn.php';
     </div>
 
     <!-- Right Side: Image -->
-    <div class="col-md-6">
+    <div class="col-md-5">
         <img src="assets/img/wifi.jpg" class="img-fluid rounded shadow" style="width: 100%; height: 380px;" alt="OTT Box Image">
     </div>
 </div>
@@ -203,7 +203,7 @@ include 'cdn.php';
         <!-- Content and Image Side by Side -->
 <div class="row align-items-start mb-5">
 
-<div class="col-md-6">
+<div class="col-md-5">
         <img src="assets/img/wifi2.jpg" class="img-fluid rounded shadow" style="width: 100%; height: 400px;" alt="OTT Box Image">
     </div>
     <!-- Left Side: Text and Table -->
