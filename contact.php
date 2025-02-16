@@ -56,11 +56,11 @@ include 'cdn.php';
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>Contact US</h1>
+                                <h1>Contact Us</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
                                        
-                                        <li class="breadcrumb-item active" aria-current="page">Unleash Your Growth Potential</li>
+                                       <!-- <li class="breadcrumb-item active" aria-current="page">Unleash Your Growth Potential</li>-->
                                     </ol>
                                 </nav>
                             </div>
@@ -260,10 +260,10 @@ include 'cdn.php';
             <div class="col-md-6 d-flex flex-column justify-content-center align-items-center location-section p-4"> <!-- Centered location -->
                 <div class="text-center">
                     <div class="icon icon-md text-secondary mb-3">
-                        <i class="ti-email"></i>
+                        <i class="ti-location-pin"></i>
                     </div>
-                    <h5 class="h6">Location</h5>
-                    <p class="text-muted mb-0">USA Address: 12110 Sunset Hills Rd, Ste 600 Reston, Virginia 20191, USA</p>
+                    <h5 class="h6">USA</h5>
+                    <p class="text-muted mb-0">12110 Sunset Hills Rd, Ste 600 Reston, Virginia 20191, USA</p>
                 </div>
             </div>
 
@@ -280,9 +280,9 @@ include 'cdn.php';
             <div class="col-md-6 d-flex flex-column justify-content-center align-items-center location-section p-4"> <!-- Centered location -->
                 <div class="text-center">
                     <div class="icon icon-md text-secondary mb-3">
-                        <i class="ti-email"></i>
+                        <i class="ti-location-pin"></i>
                     </div>
-                    <h5 class="h6">Location</h5>
+                    <h5 class="h6">India</h5>
                     <p class="text-muted mb-0">40-5/3-9, Tikkle Rd, opp. Sneha Apartments, Shyam Nagar, Labbipet, Vijayawada, Andhra Pradesh 520010</p>
                 </div>
             </div>
@@ -300,9 +300,9 @@ include 'cdn.php';
             <div class="col-md-6 d-flex flex-column justify-content-center align-items-center location-section p-4"> <!-- Centered location -->
                 <div class="text-center">
                     <div class="icon icon-md text-secondary mb-3">
-                        <i class="ti-email"></i>
+                        <i class="ti-location-pin"></i>
                     </div>
-                    <h5 class="h6">Location</h5>
+                    <h5 class="h6">Hong Kong</h5>
                     <p class="text-muted mb-0">16 Floor, Unit A, Dan 6, 2-6 Fui You Kok Street, Tsuen Wan, New Territories, Hong Kong</p>
                 </div>
             </div>

@@ -50,11 +50,11 @@ include 'cdn.php';
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>OUTDOOR WIFI</h1>
+                                <h1>Outdoor Wifi</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item">Products</a></li>
-                                        <li class="breadcrumb-item active"><a href="ott.php">OUTDOOR WIFI</a></li>
+                                        <li class="breadcrumb-item">Fiber Optics</a></li>
+                                        <li class="breadcrumb-item active"><a href="ott.php">Outdoor Wifi</a></li>
                                     </ol>
                                 </nav>
                             </div>

@@ -42,11 +42,12 @@
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-7">
                             <div class="page-header-content text-center">
-                                <h1>Importance of BRM to your business</h1>
+                                <!-- <h1>Importance  your business</h1> -->
+                                <h1>Our Vision</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
                                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                        <li class="breadcrumb-item"><a href="blog.php">Blog</a></li>
+                                        <li class="breadcrumb-item"><a href="blogdetails.php">Blog</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Websites to various Business</li>
                                     </ol>
                                 </nav>
@@ -58,17 +59,17 @@
         </section>
         <!--page header section end-->
 
-        <!--blog section start-->
+        <!-- blog section start
         <section class="section section-lg ">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 mb-5 mb-md-0 mb-lg-0">
-                        <!-- Post-->
+                        <!-- Post
                         <div class="post">
                             <div class="post-preview"><img src="assets\img\BRM.jpg" alt="pandemic" class="img-fluid" /></div><br/>
                             <div class="post-wrapper">
                                 <div class="post-header mt-4">
-                                    <h1 class="post-title h3">Importance of BRM to your Business</h1>
+                                    <h1 class="post-title h3">Our Business</h1>
                                     <ul class="post-meta list-unstyled d-flex list-inline">
                                         <li class="mr-4 font-small font-weight-bold">April 01, 2024</li>
                                         <li class="mr-4 font-small font-weight-bold"><a href="#">Website</a></li>
@@ -137,15 +138,81 @@
                                 </div>
                                 <!-- <div class="post-footer">
                                     <div class="post-tags"><a href="#">Lifestyle</a><a href="#">Music</a><a href="#">News</a><a href="#">Travel</a></div>
-                                </div> -->
+                                </div> 
                             </div>
                         </div>
-                        <!-- Post end-->
+                        <!-- Post end
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
         <!--blog section end-->
+
+        <section class="section section-lg ">
+    <div class="container">
+        <div class="row">
+            <!-- Part 1: Introduction about Business (Left) -->
+            <div class="col-lg-6 col-md-6 mb-5 mb-md-0">
+                <div class="post-wrapper">
+                    <div class="post-header mt-4">
+                    <h1 class="post-title h3" style="font-size: 2.5rem;">Our Vision</h1>
+
+                        <ul class="post-meta list-unstyled d-flex list-inline">
+                            <li class="mr-4 font-small font-weight-bold">April 01, 2024</li>
+                            <li class="mr-4 font-small font-weight-bold"><a href="#">Website</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-content">
+                        <p class="text-justify">
+                            They say the world is now in our hands and the information is at our fingertips. There are no second thoughts to that. The world of the internet is fantastic. It continues to transform the way we connect with people, share information, and live a quality life. A lot of people spend most of their time on the internet.
+                        </p>
+                        <p class="text-justify">
+                            This could be for buying a product, using a service, reading a blog, entertaining themselves, or for various other reasons. Considering the amount of time people spend on the internet, businesses too have moved online. Having a website for business owners of any size and a presence on social media has become crucial. If you are into a business and do not own a website, you might be losing a lot of potential customers online. Knowing the importance of a website is key to grow your business many fold.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Part 2: Image Only (Right) -->
+            <div class="col-lg-6 col-md-6 mb-5 mb-md-0">
+                <div class="post-preview text-right">
+                    <img src="assets/img/BRM.jpg" alt="Business Growth" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Row: Parts 3 and 4 -->
+        <div class="row mt-5">
+            <!-- Part 3: Key Benefits of Having a Website -->
+            <div class="col-lg-6 col-md-6">
+                <div class="post-wrapper">
+                    <h4 class="font-weight-bold">Essential Advantages for Your Business</h4>
+                    <ul>
+                        <li><strong>24/7 Online Presence:</strong> One of the major advantages of having a website is that it is accessible to anyone, anywhere, anytime. Even during non-business hours, customers can access your website and avail of your services or get the information they need.</li>
+                        <li><strong>24/7 Customer Support:</strong> Providing customer support is a tough job for any business. However, online customer support is easier and more cost-efficient through FAQs and chatbots.</li>
+                        <li><strong>Information Exchange:</strong> Over 50% of customers expect brands to have an online presence. Websites provide a medium to communicate with customers, including advertisements, newsletters, and contact forms.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Part 4: Establishing Credibility and Additional Benefits -->
+            <div class="col-lg-6 col-md-6">
+                <div class="post-wrapper">
+                    <h4 class="font-weight-bold">Establishing Credibility</h4>
+                    <ul>
+                        <li><strong>Build Trust:</strong> Customers expect businesses to have a website, which is crucial for establishing trust. A well-designed website enhances credibility.</li>
+                        <li><strong>Professional Web Design:</strong> Visitors expect a unique and engaging design to keep them interested in your website.</li>
+                        <li><strong>Sales and Revenue Growth:</strong> A website increases accessibility, breaking geographical barriers, and significantly boosting sales and potential revenue.</li>
+                        <li><strong>Cost-Effective:</strong> Creating a website is easier and more affordable compared to setting up a physical store, with many user-friendly platforms available.</li>
+                        <li><strong>Visibility and Marketing:</strong> A website offers vast visibility and is essential for marketing and expanding your business.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
     </div>
 

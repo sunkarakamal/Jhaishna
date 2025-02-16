@@ -53,7 +53,7 @@ include 'cdn.php';
                                 <h1> ONU + WIFI</h1>
                                 <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                                     <ol class="breadcrumb breadcrumb-transparent breadcrumb-text-light">
-                                        <li class="breadcrumb-item">Products</a></li>
+                                        <li class="breadcrumb-item">Fiber Optics</a></li>
                                     <li class="breadcrumb-item active"><a href="wifi.php">Triple Play ONU + WIFI</a></li>
                                     </ol>
                                 </nav>

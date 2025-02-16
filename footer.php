@@ -11,12 +11,12 @@
                 </div>
 
                 <!-- Digital Services Dropdown -->
-                <div class="col-sm-6 col-lg-3 mb-4">
+                <div class="col-sm-6 col-lg-3 mb-2">
     <!--<ul class="nav flex-column">
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle font-weight-bold" data-toggle="dropdown" role="button" aria-expanded="false">Digital Services</a>
             <ul class="dropdown-menu">-->
-            <h5 class="mb-4">DigitalServices</h5>
+            <h5 class="mb-2">Digital Services</h5>
             <ul class="links-vertical">
                 
                 
@@ -60,12 +60,13 @@
         </li>
     </ul>
 </div> -->
-<div class="col-sm-6 col-lg-3 mb-4">
-    <h5 class="mb-4">Products</h5>
+<div class="col-sm-6 col-lg-3 mb-2">
+    <h5 class="mb-2">Products</h5>
     <ul class="links-vertical">
         <li><a href="MES.php" aria-expanded="false">MXCloud</a></li>
         <li><a href="lms.php" aria-expanded="false">Loan Management System (LMS)</a></li>
         <li><a href="invoice.php" aria-expanded="false">E-Invoicing Software</a></li>
+        <li><a href="HRMS.php" aria-expanded="false">HRMS</a></li>
 
         <!-- Fiber Optics with Submenu -->
         <li class="nav-item dropdown">
@@ -86,7 +87,7 @@
 
                 <!-- Connect With Us Section -->
                 <div class="col-sm-4 col-lg-3">
-                    <h5 class="mb-4">Connect With Us</h5>
+                    <h5 class="mb-2">Connect With Us</h5>
                     <ul class="links-vertical">
                         <li><a href="mailto:projects@jhaishna.com">Work: Info@jhaishna.com</a></li>
                         <li><a href="mailto:hr@jhaishna.com">Jobs: hr@jhaishna.com</a></li>

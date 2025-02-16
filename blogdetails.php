@@ -200,30 +200,27 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
       </div>
     </div>
     <div class="row">
-      <!-- <div class="col-12 col-md-6 col-lg-3 mb-0" id="blogs">
-        <div class="card bg-white border-variant-soft shadow-soft">
-          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-            <img src="assets/img/cutting.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
-            <a target="_blank" href="pandemicblog.php" class="position-absolute category-text small badge badge-secondary"></a>
-          </div>
-          <div class="card-body">
-          <h3 class="h5 card-title mt-3"><a target="_blank" href="pandemicblog.php">Our Vision for Cutting-Edge Solutions</a></h3>            <p class="card-text text-justify">We lead the charge in innovation, pushing boundaries to redefine possibilities. Seamlessly integrating technology into everyday life, enhancing experiences through intuitive, user-centric design. Creating a brighter future with technologies that minimize environmental impact while maximizing efficiency and effectiveness.</p>
-          </div>
-        </div>
-      </div> -->
-      <!-- <div class="col-12 col-md-6 col-lg-4 mb-0">
-        <div class="card bg-white border-variant-soft shadow-soft">
-          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-            <img src="assets/img/mes.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
-            <a href="business-imp-blog.php" class="position-absolute category-text small badge badge-secondary"></a>
-          </div>
-          <div class="card-body">
-          <h3 class="h5 card-title mt-3"><a href="business-imp-blog.php"> The Power of MES</a></h3>
-            <p class="card-text text">Optimize production processes with our MES for real-time monitoring and control. </p>
-          </div>
-        </div>
-      </div> -->
+
+
+
     <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
+  <a  href="achievements.php" style="text-decoration: none; color: inherit;">
+    <div class="card bg-white border-variant-soft shadow-soft">
+      <div class="blog-img position-relative" style="width: 100%; height: 200px; ">
+        <img src="assets/img/achieve30.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit:content;">
+        <span class="position-absolute category-text small badge badge-secondary"></span>
+      </div>
+      <div class="card-body">
+        <h3 class="h5 card-title mt-3">Jhaishna: Emerging Leader in India's IT Sector </h3>
+        <p class="card-text text">Jhaishna Technologies win the fastest growing Indian Company Leadership Award. </p>
+      </div>
+    </div>
+  </a>
+</div>
+
+
+      
+    <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs" >
   <a target="_blank" href="mes2.php" style="text-decoration: none; color: inherit;">
     <div class="card bg-white border-variant-soft shadow-soft">
       <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
@@ -237,33 +234,9 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
     </div>
   </a>
 </div>
-      <!--<div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
-  <a target="_blank" href="pandemicblog.php" style="text-decoration: none; color: inherit;">
-    <div class="card bg-white border-variant-soft shadow-soft">
-      <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-        <img src="assets/img/cutting.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;">
-        <span class="position-absolute category-text small badge badge-secondary"></span>
-      </div>
-      <div class="card-body">
-        <h3 class="h5 card-title mt-3">Our Vision </h3>
-        <p class="card-text text">We lead the charge in innovation, pushing boundaries to redefine possibilities. </p>
-      </div>
-    </div>
-  </a>
-</div>-->
+   
 
-     <!--  <div class="col-12 col-md-6 col-lg-3 mb-0">
-        <div class="card bg-white border-variant-soft shadow-soft">
-          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-            <img src="assets/img/talent.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
-            <a href="business-imp-blog.php" class="position-absolute category-text small badge badge-secondary"></a>
-          </div>
-          <div class="card-body">
-          <h3 class="h5 card-title mt-3"><a href="business-imp-blog.php">Nurturing Talent in a Dynamic Environment</a></h3>
-            <p class="card-text text-justify">In our dynamic environment, we prioritize nurturing talent through various means. We encourage a culture of continuous learning, where employees have access to resources and opportunities for skill development. Empowerment is key - we provide autonomy and support for individuals to explore their interests and innovate.</p>
-          </div>
-        </div>
-      </div>--> 
+  
       <div class="col-12 col-md-6 col-lg-4 mb-0" id="blogs">
   <a target="_blank" href="business-imp-blog.php" style="text-decoration: none; color: inherit;">
     <div class="card bg-white border-variant-soft shadow-soft">
@@ -279,74 +252,10 @@ Seamlessly integrating technology into everyday life, enhancing experiences thro
   </a>
 </div>
 
-<div class="col-12 col-md-6 col-lg-4 mb-0">
-  <a href="resumeblog.php" style="text-decoration: none; color: inherit;">
-    <div class="card bg-white border-variant-soft shadow-soft">
-      <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-        <img src="assets/img/4px.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="resume">
-        <span class="position-absolute category-text small badge badge-secondary"></span>
-      </div>
-      <div class="card-body">
-        <h3 class="h5 card-title mt-3">Fostering Collaboration </h3>
-        <p class="card-text ">In our organization, fostering collaboration and inclusivity is paramount. </p>
-      </div>
-    </div>
-  </a>
-</div>
 
-     <!-- <div class="col-12 col-md-6 col-lg-3 mb-0">
-        <div class="card bg-white border-variant-soft shadow-soft">
-          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-            <img src="assets/img/4px.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="resume">
-            <a href="resumeblog.php" class="position-absolute category-text small badge badge-secondary"></a>
-          </div>
-         <div class="card-body">
-          <h3 class="h5 card-title mt-3"><a href="resumeblog.php">Fostering Collaboration and Inclusivity</a></h3>
-            <p class="card-text text-justify">In our organization, fostering collaboration and inclusivity is paramount. We believe that diverse perspectives and experiences are fundamental to driving innovation and creativity. Therefore, we actively promote an inclusive culture.</p>
-          </div>
-        </div>
-      </div> 
-      <div class="col-12 col-md-6 col-lg-3 mb-0">
-  <a href="resumeblog.php" style="text-decoration: none; color: inherit;">
-    <div class="card bg-white border-variant-soft shadow-soft">
-      <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-        <img src="assets/img/4px.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="resume">
-        <span class="position-absolute category-text small badge badge-secondary"></span>
-      </div>-->
-      <!--<div class="card-body">
-        <h3 class="h5 card-title mt-3">Fostering Collaboration </h3>
-        <p class="card-text ">In our organization, fostering collaboration and inclusivity is paramount. </p>
-      </div>
-    </div>
-  </a>
-</div> -->
 
-      <!-- <div class="col-12 col-md-6 col-lg-3 mb-0">
-        <div class="card bg-white border-variant-soft shadow-soft">
-          <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-            <img src="assets/img/mes.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
-            <a href="business-imp-blog.php" class="position-absolute category-text small badge badge-secondary"></a>
-          </div>
-          <div class="card-body">
-          <h3 class="h5 card-title mt-3"><a href="business-imp-blog.php">Transform Your Manufacturing: The Power of Manufacturing Execution Systems</a></h3>
-            <p class="card-text text-justify">In today's fast-paced industrial landscape, staying competitive means embracing digital transformation. At the heart of this revolution in manufacturing lies a powerful tool: the Manufacturing Execution System (MES). Let's dive into what MES is, why it's crucial, and how it's shaping the future of manufacturing..</p>
-          </div>
-        </div>
-      </div> -->
-     <!-- <div class="col-12 col-md-6 col-lg-3 mb-0">
-  <a href="mes.php" style="text-decoration: none; color: inherit;">
-    <div class="card bg-white border-variant-soft shadow-soft">
-      <div class="blog-img position-relative" style="width: 100%; height: 200px; overflow: hidden;">
-        <img src="assets/img/mes.jpg" class="card-img-top rounded-top lozad" style="width: 100%; height: 100%; object-fit: cover;" alt="business">
-        <!-- The <a> tag inside the div is removed 
-      </div>
-      <div class="card-body">
-        <h3 class="h5 card-title mt-3">Transform Your Manufacturing: The Power of MES</h3>
-        <p class="card-text text-justify">In today's fast-paced industrial landscape, staying competitive means embracing digital transformation. At the heart of this revolution in manufacturing lies a powerful tool: the Manufacturing Execution System (MES). Let's dive into what MES is, why it's crucial, and how it's shaping the future of manufacturing.</p>
-      </div>
-    </div>
-  </a>
-</div>-->
+    
+      
 
     </div>
   </div>

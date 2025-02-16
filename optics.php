@@ -139,7 +139,11 @@ include 'cdn.php';
 
     <a href="practise2.php" class="text-decoration-none text-dark">
         <div class="card h-100 shadow-lg text-center card-hover"> <!-- Added class 'card-hover' -->
-            <img src="assets/img/ott2.jpg" class="card-img-top" alt="P97 Image" style="height: 150px; object-fit: cover;">
+            <img src="assets/img/wifi.jpg" class="card-img-top" alt="P97 Image" style="height: 140px; ">
+            <!-- <div style="height: 200px; overflow: hidden;">
+    <img src="assets/img/wifi.jpg" class="card-img-top" alt="P97 Image" style="height: auto; width: 100%; object-fit: cover;">
+</div> -->
+
             <div class="card-body">
                 <h5 class="card-title">ONU+WIFI</h5>
                 <p class="card-text">Experience High-Speed Coverage in Every Corner of Your Home/Office.</p>
@@ -177,7 +181,7 @@ include 'cdn.php';
     <!-- <div class="col-md-3 mb-4"> -->
     <a href="ott.php" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-lg text-center card-hover">
-                    <img src="assets/img/outdoor1.jpg" class="card-img-top" alt="AX3000 Image" style="height: 150px; object-fit: cover;">
+                    <img src="assets/img/ott2.jpg" class="card-img-top" alt="AX3000 Image" style="height: 150px; object-fit: cover;">
                     <div class="card-body">
                         <h5 class="card-title">OTT-Smart Android IPTV Box</h5>
                         <p class="card-text"> Elevate Your Viewing Experience with Our Robust Smart Systems
@@ -215,7 +219,7 @@ include 'cdn.php';
     <!-- <div class="col-md-3 mb-4"> -->
     <a href="practise.php" class="text-decoration-none text-dark">
                 <div class="card h-100 shadow-lg text-center card-hover">
-                    <img src="assets/img/wifi.jpg" class="card-img-top" alt="AX3000 Image" style="height: 150px; object-fit: cover;">
+                    <img src="assets/img/outdoor.jpg" class="card-img-top" alt="AX3000 Image" style="height: 150px; object-fit: cover;">
                     <div class="card-body">
                         <h5 class="card-title">Outdoor WiFi</h5>
                         <p class="card-text"> Enjoy Seamless Connectivity with Our Latest Outdoor WiFi Solutions</p>

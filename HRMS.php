@@ -83,7 +83,8 @@ include 'cdn.php';
 
 </div>
         <div class="col-sm-6 mb-2">
-    <img src="assets\img\4px.jpg"  style="width: 500px; height: 250px; margin-left:80px;">
+    <img src="assets\img\hrms11.jpg"  style="width: 500px; height: 250px; margin-left:80px;">
+    <!-- <img src="assets\img\hrms-features.png"  style="width: 500px; height: 250px; margin-left:80px;"> -->
     <section class="bg-primary text-white py-5"style= "margin-left:80px;width: 500px;">
     <div class="container">
         <h4>HRMS</h4>
